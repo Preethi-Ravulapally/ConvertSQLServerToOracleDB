@@ -1,0 +1,71 @@
+14:18:22 INFO  - Loading Configuration Data
+14:18:22 INFO  - Loading Configuration Data
+14:18:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:22 INFO  - MSSQL.ServerPort : 1433
+14:18:22 INFO  - MSSQL.DBName : ECAP
+14:18:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:22 INFO  - MSSQL.Password : Preeth!6131
+14:18:22 INFO  - Initializing database connections
+14:18:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:23 INFO  - Finished Loading Configuration Data
+14:18:23 INFO  - Loading Configuration Data
+14:18:23 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:23 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:23 INFO  - MSSQL.ServerPort : 1433
+14:18:23 INFO  - MSSQL.DBName : ECAP
+14:18:23 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:23 INFO  - MSSQL.Password : Preeth!6131
+14:18:23 INFO  - Initializing database connections
+14:18:23 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:23 INFO  - Finished Loading Configuration Data
+14:18:23 INFO  - Migration.TableNames : v4PRS_MASTPOOL
+14:18:23 INFO  - [boolean existViewInDB(String viewName[v4PRS_MASTPOOL])]
+14:18:23 INFO  - Exist View [v4PRS_MASTPOOL] ? -> true
+14:18:23 INFO  - Loading Configuration Data
+14:18:23 INFO  - Loading Configuration Data
+14:18:23 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:23 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:23 INFO  - MSSQL.ServerPort : 1433
+14:18:23 INFO  - MSSQL.DBName : ECAP
+14:18:23 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:23 INFO  - MSSQL.Password : Preeth!6131
+14:18:23 INFO  - Initializing database connections
+14:18:23 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:23 INFO  - Finished Loading Configuration Data
+14:18:23 INFO  - [boolean existViewInDB(String viewName[v4PRS_MASTPOOL])]
+14:18:23 INFO  - Exist View [v4PRS_MASTPOOL] ? -> true
+14:18:24 INFO  - Copying data: SELECT * FROM v4PRS_MASTPOOL
+14:18:27 INFO  - Parsed 4105 rows
+14:18:27 INFO  - Executing ...
+14:18:27 INFO  - DONE!
+14:18:27 INFO  - Migration.TableNames : v4PRS_MASTPOOL
+14:18:27 INFO  - [boolean existViewInDB(String viewName[v4PRS_MASTPOOL])]
+14:18:27 INFO  - Exist View [v4PRS_MASTPOOL] ? -> true
+14:18:27 INFO  - [boolean existViewInDB(String viewName[v4PRS_MASTPOOL])]
+14:18:27 INFO  - Exist View [v4PRS_MASTPOOL] ? -> true
+14:18:33 INFO  - Parsed row 1000
+14:18:33 INFO  - Parsed row 2000
+14:18:33 INFO  - Parsed row 3000
+14:18:33 INFO  - Parsed row 4000
+14:18:33 INFO  - Loading Configuration Data
+14:18:33 INFO  - Loading Configuration Data
+14:18:33 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:33 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:33 INFO  - MSSQL.ServerPort : 1433
+14:18:33 INFO  - MSSQL.DBName : ECAP
+14:18:33 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:33 INFO  - MSSQL.Password : Preeth!6131
+14:18:33 INFO  - Initializing database connections
+14:18:33 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:34 INFO  - Finished Loading Configuration Data
+14:18:34 INFO  - Loading Configuration Data
+14:18:34 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:34 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:34 INFO  - MSSQL.ServerPort : 1433
+14:18:34 INFO  - MSSQL.DBName : ECAP
+14:18:34 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:34 INFO  - MSSQL.Password : Preeth!6131
+14:18:34 INFO  - Initializing database connections
+14:18:34 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:34 INFO  - Finished Loading Configuration Data

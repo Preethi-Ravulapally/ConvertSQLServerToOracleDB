@@ -1,0 +1,1094 @@
+01:10:55 INFO  - Loading Configuration Data
+01:10:55 INFO  - Loading Configuration Data
+01:10:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:10:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:10:55 INFO  - MSSQL.ServerPort : 1433
+01:10:55 INFO  - MSSQL.DBName : ECAP
+01:10:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:10:55 INFO  - MSSQL.Password : Preeth!6131
+01:10:55 INFO  - Initializing database connections
+01:10:56 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:12:01 INFO  - Loading Configuration Data
+01:12:01 INFO  - Loading Configuration Data
+01:12:01 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:12:01 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:12:01 INFO  - MSSQL.ServerPort : 1433
+01:12:01 INFO  - MSSQL.DBName : ECAP
+01:12:01 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:12:01 INFO  - MSSQL.Password : Preeth!6131
+01:12:01 INFO  - Initializing database connections
+01:12:01 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:12:02 INFO  - Finished Loading Configuration Data
+01:12:02 INFO  - Loading Configuration Data
+01:12:02 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:12:02 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:12:02 INFO  - MSSQL.ServerPort : 1433
+01:12:02 INFO  - MSSQL.DBName : ECAP
+01:12:02 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:12:02 INFO  - MSSQL.Password : Preeth!6131
+01:12:02 INFO  - Initializing database connections
+01:12:02 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:12:02 INFO  - Finished Loading Configuration Data
+01:12:02 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:12:03 INFO  - Building destination table ...
+01:12:03 INFO  - Creating prepared statement
+01:12:03 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+01:12:05 INFO  - Parsed 611 rows
+01:12:05 INFO  - Executing ...
+01:12:05 INFO  - DONE!
+01:12:05 INFO  - Building destination table ...
+01:12:05 INFO  - Creating prepared statement
+01:12:05 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+01:12:05 INFO  - Parsed 224 rows
+01:12:05 INFO  - Executing ...
+01:12:05 INFO  - DONE!
+01:12:05 INFO  - Building destination table ...
+01:12:05 INFO  - Creating prepared statement
+01:12:05 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:12:39 INFO  - Parsed 65535 rows
+01:12:39 INFO  - Executing ...
+01:12:39 INFO  - DONE!
+01:12:39 INFO  - Building destination table ...
+01:12:39 INFO  - Creating prepared statement
+01:12:39 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+01:12:40 INFO  - Parsed 209 rows
+01:12:40 INFO  - Executing ...
+01:12:40 INFO  - DONE!
+01:12:40 INFO  - Building destination table ...
+01:12:40 INFO  - Creating prepared statement
+01:12:40 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+01:12:40 INFO  - Parsed 573 rows
+01:12:40 INFO  - Executing ...
+01:12:40 INFO  - DONE!
+01:12:40 INFO  - Building destination table ...
+01:12:40 INFO  - Creating prepared statement
+01:12:40 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+01:12:41 INFO  - Parsed 613 rows
+01:12:41 INFO  - Executing ...
+01:12:41 INFO  - DONE!
+01:12:41 INFO  - Building destination table ...
+01:12:41 INFO  - Creating prepared statement
+01:12:41 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+01:12:41 INFO  - Parsed 1071 rows
+01:12:41 INFO  - Executing ...
+01:12:41 INFO  - DONE!
+01:12:41 INFO  - Building destination table ...
+01:12:41 INFO  - Creating prepared statement
+01:12:41 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:12:50 INFO  - Parsed 113449 rows
+01:12:50 INFO  - Executing ...
+01:12:50 INFO  - DONE!
+01:12:50 INFO  - Building destination table ...
+01:12:50 INFO  - Creating prepared statement
+01:12:50 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+01:12:53 INFO  - Parsed 615 rows
+01:12:53 INFO  - Executing ...
+01:12:53 INFO  - DONE!
+01:12:53 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:12:53 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+01:12:53 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+01:12:58 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+01:12:58 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+01:13:00 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+01:13:00 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+01:13:03 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+01:13:03 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+01:13:05 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+01:13:05 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+01:13:08 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+01:13:08 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+01:13:13 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+01:13:13 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+01:13:17 INFO  - Parsed row 1000
+01:13:17 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:13:17 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+01:13:21 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+01:13:21 INFO  - Exist View [view_V4GIS_PRS_Info] ? -> true
+01:13:25 INFO  - Loading Configuration Data
+01:13:25 INFO  - Loading Configuration Data
+01:13:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:13:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:13:25 INFO  - MSSQL.ServerPort : 1433
+01:13:25 INFO  - MSSQL.DBName : ECAP
+01:13:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:13:25 INFO  - MSSQL.Password : Preeth!6131
+01:13:25 INFO  - Initializing database connections
+01:13:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:13:25 INFO  - Finished Loading Configuration Data
+01:13:25 INFO  - Loading Configuration Data
+01:13:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:13:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:13:25 INFO  - MSSQL.ServerPort : 1433
+01:13:25 INFO  - MSSQL.DBName : ECAP
+01:13:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:13:25 INFO  - MSSQL.Password : Preeth!6131
+01:13:25 INFO  - Initializing database connections
+01:13:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:13:25 INFO  - Finished Loading Configuration Data
+01:14:25 ERROR - java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+01:14:35 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+01:17:09 INFO  - Loading Configuration Data
+01:17:09 INFO  - Loading Configuration Data
+01:17:09 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:17:09 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:17:09 INFO  - MSSQL.ServerPort : 1433
+01:17:09 INFO  - MSSQL.DBName : ECAP
+01:17:09 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:17:09 INFO  - MSSQL.Password : Preeth!6131
+01:17:09 INFO  - Initializing database connections
+01:17:10 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:17:11 INFO  - Finished Loading Configuration Data
+01:17:11 INFO  - Loading Configuration Data
+01:17:11 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:17:11 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:17:11 INFO  - MSSQL.ServerPort : 1433
+01:17:11 INFO  - MSSQL.DBName : ECAP
+01:17:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:17:11 INFO  - MSSQL.Password : Preeth!6131
+01:17:11 INFO  - Initializing database connections
+01:17:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:17:11 INFO  - Finished Loading Configuration Data
+01:17:11 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:17:12 INFO  - Building destination table ...
+01:17:12 INFO  - Creating prepared statement
+01:17:12 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:17:16 INFO  - Parsed 113449 rows
+01:17:16 INFO  - Executing ...
+01:17:16 INFO  - DONE!
+01:17:17 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:17:17 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:17:17 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+01:17:22 INFO  - Loading Configuration Data
+01:17:22 INFO  - Loading Configuration Data
+01:17:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:17:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:17:22 INFO  - MSSQL.ServerPort : 1433
+01:17:22 INFO  - MSSQL.DBName : ECAP
+01:17:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:17:22 INFO  - MSSQL.Password : Preeth!6131
+01:17:22 INFO  - Initializing database connections
+01:17:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:17:22 INFO  - Finished Loading Configuration Data
+01:17:22 INFO  - Loading Configuration Data
+01:17:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:17:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:17:22 INFO  - MSSQL.ServerPort : 1433
+01:17:22 INFO  - MSSQL.DBName : ECAP
+01:17:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:17:22 INFO  - MSSQL.Password : Preeth!6131
+01:17:22 INFO  - Initializing database connections
+01:17:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:17:22 INFO  - Finished Loading Configuration Data
+01:17:25 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+01:19:45 INFO  - Loading Configuration Data
+01:19:45 INFO  - Loading Configuration Data
+01:19:45 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:19:45 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:19:45 INFO  - MSSQL.ServerPort : 1433
+01:19:45 INFO  - MSSQL.DBName : ECAP
+01:19:45 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:19:45 INFO  - MSSQL.Password : Preeth!6131
+01:19:45 INFO  - Initializing database connections
+01:19:46 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:19:47 INFO  - Finished Loading Configuration Data
+01:19:47 INFO  - Loading Configuration Data
+01:19:47 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:19:47 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:19:47 INFO  - MSSQL.ServerPort : 1433
+01:19:47 INFO  - MSSQL.DBName : ECAP
+01:19:47 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:19:47 INFO  - MSSQL.Password : Preeth!6131
+01:19:47 INFO  - Initializing database connections
+01:19:47 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:19:47 INFO  - Finished Loading Configuration Data
+01:19:47 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:20:15 INFO  - Loading Configuration Data
+01:20:15 INFO  - Loading Configuration Data
+01:20:15 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:15 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:15 INFO  - MSSQL.ServerPort : 1433
+01:20:15 INFO  - MSSQL.DBName : ECAP
+01:20:15 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:15 INFO  - MSSQL.Password : Preeth!6131
+01:20:15 INFO  - Initializing database connections
+01:20:15 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:16 INFO  - Finished Loading Configuration Data
+01:20:16 INFO  - Loading Configuration Data
+01:20:16 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:16 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:16 INFO  - MSSQL.ServerPort : 1433
+01:20:16 INFO  - MSSQL.DBName : ECAP
+01:20:16 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:16 INFO  - MSSQL.Password : Preeth!6131
+01:20:16 INFO  - Initializing database connections
+01:20:16 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:16 INFO  - Finished Loading Configuration Data
+01:20:16 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:20:19 INFO  - Building destination table ...
+01:20:19 INFO  - Creating prepared statement
+01:20:19 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:20:26 INFO  - Parsed 113449 rows
+01:20:26 INFO  - Executing ...
+01:20:26 INFO  - DONE!
+01:20:27 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:20:27 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:20:27 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+01:20:34 INFO  - Loading Configuration Data
+01:20:34 INFO  - Loading Configuration Data
+01:20:34 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:34 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:34 INFO  - MSSQL.ServerPort : 1433
+01:20:34 INFO  - MSSQL.DBName : ECAP
+01:20:34 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:34 INFO  - MSSQL.Password : Preeth!6131
+01:20:34 INFO  - Initializing database connections
+01:20:34 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:34 INFO  - Finished Loading Configuration Data
+01:20:34 INFO  - Loading Configuration Data
+01:20:34 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:34 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:34 INFO  - MSSQL.ServerPort : 1433
+01:20:34 INFO  - MSSQL.DBName : ECAP
+01:20:34 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:34 INFO  - MSSQL.Password : Preeth!6131
+01:20:34 INFO  - Initializing database connections
+01:20:34 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:34 INFO  - Finished Loading Configuration Data
+01:20:56 INFO  - Loading Configuration Data
+01:20:56 INFO  - Loading Configuration Data
+01:20:56 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:56 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:56 INFO  - MSSQL.ServerPort : 1433
+01:20:56 INFO  - MSSQL.DBName : ECAP
+01:20:56 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:56 INFO  - MSSQL.Password : Preeth!6131
+01:20:56 INFO  - Initializing database connections
+01:20:57 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:57 INFO  - Finished Loading Configuration Data
+01:20:57 INFO  - Loading Configuration Data
+01:20:57 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:20:57 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:20:57 INFO  - MSSQL.ServerPort : 1433
+01:20:57 INFO  - MSSQL.DBName : ECAP
+01:20:57 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:20:57 INFO  - MSSQL.Password : Preeth!6131
+01:20:57 INFO  - Initializing database connections
+01:20:57 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:20:57 INFO  - Finished Loading Configuration Data
+01:20:57 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:22:25 INFO  - Loading Configuration Data
+01:22:25 INFO  - Loading Configuration Data
+01:22:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:22:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:22:25 INFO  - MSSQL.ServerPort : 1433
+01:22:25 INFO  - MSSQL.DBName : ECAP
+01:22:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:22:25 INFO  - MSSQL.Password : Preeth!6131
+01:22:25 INFO  - Initializing database connections
+01:22:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:22:26 INFO  - Finished Loading Configuration Data
+01:22:26 INFO  - Loading Configuration Data
+01:22:26 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:22:26 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:22:26 INFO  - MSSQL.ServerPort : 1433
+01:22:26 INFO  - MSSQL.DBName : ECAP
+01:22:26 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:22:26 INFO  - MSSQL.Password : Preeth!6131
+01:22:26 INFO  - Initializing database connections
+01:22:26 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:22:26 INFO  - Finished Loading Configuration Data
+01:22:26 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:25:00 INFO  - Loading Configuration Data
+01:25:00 INFO  - Loading Configuration Data
+01:25:00 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:25:00 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:25:00 INFO  - MSSQL.ServerPort : 1433
+01:25:00 INFO  - MSSQL.DBName : ECAP
+01:25:00 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:25:00 INFO  - MSSQL.Password : Preeth!6131
+01:25:00 INFO  - Initializing database connections
+01:25:00 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:25:01 INFO  - Finished Loading Configuration Data
+01:25:01 INFO  - Loading Configuration Data
+01:25:01 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:25:01 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:25:01 INFO  - MSSQL.ServerPort : 1433
+01:25:01 INFO  - MSSQL.DBName : ECAP
+01:25:01 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:25:01 INFO  - MSSQL.Password : Preeth!6131
+01:25:01 INFO  - Initializing database connections
+01:25:01 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:25:01 INFO  - Finished Loading Configuration Data
+01:25:01 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:25:02 INFO  - Building destination table ...
+01:25:02 INFO  - Creating prepared statement
+01:25:02 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:25:07 INFO  - Parsed 113449 rows
+01:25:07 INFO  - Executing ...
+01:25:07 INFO  - DONE!
+01:25:07 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:25:07 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:25:07 INFO  - table doesnot exist in the Oracle database
+01:25:07 INFO  - Loading Configuration Data
+01:25:07 INFO  - Loading Configuration Data
+01:25:07 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:25:07 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:25:07 INFO  - MSSQL.ServerPort : 1433
+01:25:07 INFO  - MSSQL.DBName : ECAP
+01:25:07 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:25:07 INFO  - MSSQL.Password : Preeth!6131
+01:25:07 INFO  - Initializing database connections
+01:25:07 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:25:07 INFO  - Finished Loading Configuration Data
+01:25:07 INFO  - Loading Configuration Data
+01:25:08 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:25:08 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:25:08 INFO  - MSSQL.ServerPort : 1433
+01:25:08 INFO  - MSSQL.DBName : ECAP
+01:25:08 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:25:08 INFO  - MSSQL.Password : Preeth!6131
+01:25:08 INFO  - Initializing database connections
+01:25:08 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:25:08 INFO  - Finished Loading Configuration Data
+01:25:08 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-00902: invalid datatype
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00902: invalid datatype
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+01:26:35 INFO  - Loading Configuration Data
+01:26:35 INFO  - Loading Configuration Data
+01:26:35 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:26:35 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:26:35 INFO  - MSSQL.ServerPort : 1433
+01:26:35 INFO  - MSSQL.DBName : ECAP
+01:26:35 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:26:35 INFO  - MSSQL.Password : Preeth!6131
+01:26:35 INFO  - Initializing database connections
+01:26:35 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:26:36 INFO  - Finished Loading Configuration Data
+01:26:36 INFO  - Loading Configuration Data
+01:26:36 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:26:36 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:26:36 INFO  - MSSQL.ServerPort : 1433
+01:26:36 INFO  - MSSQL.DBName : ECAP
+01:26:36 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:26:36 INFO  - MSSQL.Password : Preeth!6131
+01:26:36 INFO  - Initializing database connections
+01:26:36 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:26:36 INFO  - Finished Loading Configuration Data
+01:26:36 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:26:47 INFO  - Building destination table ...
+01:26:47 INFO  - Creating prepared statement
+01:26:47 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:27:10 INFO  - Parsed 113449 rows
+01:27:10 INFO  - Executing ...
+01:27:10 INFO  - DONE!
+01:27:10 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:27:10 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:27:10 INFO  - table doesnot exist in the Oracle database
+01:27:10 INFO  - Loading Configuration Data
+01:27:10 INFO  - Loading Configuration Data
+01:27:10 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:27:10 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:27:10 INFO  - MSSQL.ServerPort : 1433
+01:27:10 INFO  - MSSQL.DBName : ECAP
+01:27:10 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:27:10 INFO  - MSSQL.Password : Preeth!6131
+01:27:10 INFO  - Initializing database connections
+01:27:10 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:27:10 INFO  - Finished Loading Configuration Data
+01:27:10 INFO  - Loading Configuration Data
+01:27:10 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:27:10 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:27:11 INFO  - MSSQL.ServerPort : 1433
+01:27:11 INFO  - MSSQL.DBName : ECAP
+01:27:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:27:11 INFO  - MSSQL.Password : Preeth!6131
+01:27:11 INFO  - Initializing database connections
+01:27:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:27:11 INFO  - Finished Loading Configuration Data
+01:34:11 INFO  - Loading Configuration Data
+01:34:11 INFO  - Loading Configuration Data
+01:34:11 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:34:11 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:34:11 INFO  - MSSQL.ServerPort : 1433
+01:34:11 INFO  - MSSQL.DBName : ECAP
+01:34:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:34:11 INFO  - MSSQL.Password : Preeth!6131
+01:34:11 INFO  - Initializing database connections
+01:34:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:34:12 INFO  - Finished Loading Configuration Data
+01:34:12 INFO  - Loading Configuration Data
+01:34:12 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:34:12 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:34:12 INFO  - MSSQL.ServerPort : 1433
+01:34:12 INFO  - MSSQL.DBName : ECAP
+01:34:12 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:34:12 INFO  - MSSQL.Password : Preeth!6131
+01:34:12 INFO  - Initializing database connections
+01:34:12 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:34:12 INFO  - Finished Loading Configuration Data
+01:34:12 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:34:13 INFO  - Building destination table ...
+01:34:13 INFO  - Creating prepared statement
+01:34:13 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:34:19 INFO  - Parsed 113449 rows
+01:34:19 INFO  - Executing ...
+01:34:19 INFO  - DONE!
+01:34:20 INFO  - Migration.TableNames : view_v4GIS_PRS_Info_Archived
+01:34:20 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:34:20 INFO  - table doesnot exist in the Oracle database
+01:34:20 INFO  - Loading Configuration Data
+01:34:20 INFO  - Loading Configuration Data
+01:34:20 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:34:20 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:34:20 INFO  - MSSQL.ServerPort : 1433
+01:34:20 INFO  - MSSQL.DBName : ECAP
+01:34:20 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:34:20 INFO  - MSSQL.Password : Preeth!6131
+01:34:20 INFO  - Initializing database connections
+01:34:20 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:34:20 INFO  - Finished Loading Configuration Data
+01:34:20 INFO  - Loading Configuration Data
+01:34:20 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:34:20 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:34:20 INFO  - MSSQL.ServerPort : 1433
+01:34:20 INFO  - MSSQL.DBName : ECAP
+01:34:20 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:34:20 INFO  - MSSQL.Password : Preeth!6131
+01:34:20 INFO  - Initializing database connections
+01:34:20 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:34:20 INFO  - Finished Loading Configuration Data
+01:34:24 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+01:44:24 INFO  - Loading Configuration Data
+01:44:24 INFO  - Loading Configuration Data
+01:44:24 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:44:24 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:44:24 INFO  - MSSQL.ServerPort : 1433
+01:44:24 INFO  - MSSQL.DBName : ECAP
+01:44:24 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:44:24 INFO  - MSSQL.Password : Preeth!6131
+01:44:24 INFO  - Initializing database connections
+01:44:24 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:44:25 INFO  - Finished Loading Configuration Data
+01:44:25 INFO  - Loading Configuration Data
+01:44:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:44:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:44:25 INFO  - MSSQL.ServerPort : 1433
+01:44:25 INFO  - MSSQL.DBName : ECAP
+01:44:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:44:25 INFO  - MSSQL.Password : Preeth!6131
+01:44:25 INFO  - Initializing database connections
+01:44:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:44:25 INFO  - Finished Loading Configuration Data
+01:44:25 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:44:26 INFO  - Building destination table ...
+01:44:26 INFO  - Creating prepared statement
+01:44:26 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:44:35 INFO  - Parsed 65535 rows
+01:44:35 INFO  - Executing ...
+01:44:35 INFO  - DONE!
+01:44:36 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:44:36 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+01:44:36 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+01:44:59 INFO  - Loading Configuration Data
+01:44:59 INFO  - Loading Configuration Data
+01:44:59 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:44:59 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:44:59 INFO  - MSSQL.ServerPort : 1433
+01:44:59 INFO  - MSSQL.DBName : ECAP
+01:44:59 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:44:59 INFO  - MSSQL.Password : Preeth!6131
+01:44:59 INFO  - Initializing database connections
+01:44:59 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:44:59 INFO  - Finished Loading Configuration Data
+01:44:59 INFO  - Loading Configuration Data
+01:44:59 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:44:59 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:44:59 INFO  - MSSQL.ServerPort : 1433
+01:44:59 INFO  - MSSQL.DBName : ECAP
+01:44:59 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:44:59 INFO  - MSSQL.Password : Preeth!6131
+01:44:59 INFO  - Initializing database connections
+01:44:59 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:44:59 INFO  - Finished Loading Configuration Data
+01:46:00 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+01:49:41 INFO  - Loading Configuration Data
+01:49:41 INFO  - Loading Configuration Data
+01:49:41 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:49:41 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:49:41 INFO  - MSSQL.ServerPort : 1433
+01:49:41 INFO  - MSSQL.DBName : ECAP
+01:49:41 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:49:41 INFO  - MSSQL.Password : Preeth!6131
+01:49:41 INFO  - Initializing database connections
+01:49:41 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:49:42 INFO  - Finished Loading Configuration Data
+01:49:42 INFO  - Loading Configuration Data
+01:49:42 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:49:42 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:49:42 INFO  - MSSQL.ServerPort : 1433
+01:49:42 INFO  - MSSQL.DBName : ECAP
+01:49:42 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:49:42 INFO  - MSSQL.Password : Preeth!6131
+01:49:42 INFO  - Initializing database connections
+01:49:42 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:49:42 INFO  - Finished Loading Configuration Data
+01:49:43 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:49:43 INFO  - Building destination table ...
+01:49:43 INFO  - Creating prepared statement
+01:49:43 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+01:49:52 INFO  - Parsed 611 rows
+01:49:52 INFO  - Executing ...
+01:49:52 INFO  - DONE!
+01:49:52 INFO  - Building destination table ...
+01:49:52 INFO  - Creating prepared statement
+01:49:52 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+01:49:52 INFO  - Parsed 224 rows
+01:49:52 INFO  - Executing ...
+01:49:52 INFO  - DONE!
+01:49:52 INFO  - Building destination table ...
+01:49:52 INFO  - Creating prepared statement
+01:49:52 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:50:36 INFO  - Parsed 65535 rows
+01:50:36 INFO  - Executing ...
+01:50:36 INFO  - DONE!
+01:50:36 INFO  - Building destination table ...
+01:50:36 INFO  - Creating prepared statement
+01:50:36 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+01:50:37 INFO  - Parsed 209 rows
+01:50:37 INFO  - Executing ...
+01:50:37 INFO  - DONE!
+01:50:37 INFO  - Building destination table ...
+01:50:37 INFO  - Creating prepared statement
+01:50:37 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+01:50:37 INFO  - Parsed 573 rows
+01:50:37 INFO  - Executing ...
+01:50:37 INFO  - DONE!
+01:50:37 INFO  - Building destination table ...
+01:50:37 INFO  - Creating prepared statement
+01:50:37 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+01:50:38 INFO  - Parsed 613 rows
+01:50:38 INFO  - Executing ...
+01:50:38 INFO  - DONE!
+01:50:38 INFO  - Building destination table ...
+01:50:38 INFO  - Creating prepared statement
+01:50:38 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+01:50:39 INFO  - Parsed 1071 rows
+01:50:39 INFO  - Executing ...
+01:50:39 INFO  - DONE!
+01:50:39 INFO  - Building destination table ...
+01:50:39 INFO  - Creating prepared statement
+01:50:39 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:50:48 INFO  - Parsed 113449 rows
+01:50:48 INFO  - Executing ...
+01:50:48 INFO  - DONE!
+01:50:48 INFO  - Building destination table ...
+01:50:48 INFO  - Creating prepared statement
+01:50:48 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+01:50:51 INFO  - Parsed 615 rows
+01:50:51 INFO  - Executing ...
+01:50:51 INFO  - DONE!
+01:50:52 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:50:52 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+01:50:52 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+01:51:15 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+01:51:15 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+01:51:22 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+01:51:22 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+01:51:26 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+01:51:26 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+01:51:29 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+01:51:29 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+01:51:33 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+01:51:33 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+01:51:37 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+01:51:37 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+01:51:41 INFO  - Parsed row 1000
+01:51:41 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:51:41 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+01:51:45 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+01:51:45 INFO  - Exist View [view_V4GIS_PRS_Info] ? -> true
+01:51:48 INFO  - Loading Configuration Data
+01:51:48 INFO  - Loading Configuration Data
+01:51:48 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:51:48 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:51:48 INFO  - MSSQL.ServerPort : 1433
+01:51:48 INFO  - MSSQL.DBName : ECAP
+01:51:48 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:51:48 INFO  - MSSQL.Password : Preeth!6131
+01:51:48 INFO  - Initializing database connections
+01:51:48 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:51:48 INFO  - Finished Loading Configuration Data
+01:51:49 INFO  - Loading Configuration Data
+01:51:49 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:51:49 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:51:49 INFO  - MSSQL.ServerPort : 1433
+01:51:49 INFO  - MSSQL.DBName : ECAP
+01:51:49 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:51:49 INFO  - MSSQL.Password : Preeth!6131
+01:51:49 INFO  - Initializing database connections
+01:51:49 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:51:49 INFO  - Finished Loading Configuration Data
+01:51:49 ERROR - view_v4PRS_P3eDP_Authorizations
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:49 ERROR - view_v4PRS_P3e_ProjectedAwards
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:49 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:49 ERROR - view_v4PRS_P3e_Planned_Adv
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:50 ERROR - view_v4PRS_Budget_Est_Data
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:52 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:51:52 ERROR - view_V4GIS_PRS_Info
+java.sql.SQLSyntaxErrorException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00917: missing comma
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+01:56:35 INFO  - Loading Configuration Data
+01:56:35 INFO  - Loading Configuration Data
+01:56:35 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:56:35 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:56:35 INFO  - MSSQL.ServerPort : 1433
+01:56:35 INFO  - MSSQL.DBName : ECAP
+01:56:35 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:56:35 INFO  - MSSQL.Password : Preeth!6131
+01:56:35 INFO  - Initializing database connections
+01:56:35 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:56:36 INFO  - Finished Loading Configuration Data
+01:56:36 INFO  - Loading Configuration Data
+01:56:36 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:56:36 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:56:36 INFO  - MSSQL.ServerPort : 1433
+01:56:36 INFO  - MSSQL.DBName : ECAP
+01:56:36 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:56:36 INFO  - MSSQL.Password : Preeth!6131
+01:56:36 INFO  - Initializing database connections
+01:56:36 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:56:36 INFO  - Finished Loading Configuration Data
+01:56:36 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:56:37 INFO  - Building destination table ...
+01:56:37 INFO  - Creating prepared statement
+01:56:37 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+01:56:45 INFO  - Parsed 611 rows
+01:56:45 INFO  - Executing ...
+01:56:45 INFO  - DONE!
+01:56:45 INFO  - Building destination table ...
+01:56:45 INFO  - Creating prepared statement
+01:56:45 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+01:56:46 INFO  - Parsed 224 rows
+01:56:46 INFO  - Executing ...
+01:56:46 INFO  - DONE!
+01:56:46 INFO  - Building destination table ...
+01:56:46 INFO  - Creating prepared statement
+01:56:46 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+01:57:52 INFO  - Parsed 65535 rows
+01:57:52 INFO  - Executing ...
+01:57:52 INFO  - DONE!
+01:57:53 INFO  - Building destination table ...
+01:57:53 INFO  - Creating prepared statement
+01:57:53 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+01:57:53 INFO  - Parsed 209 rows
+01:57:53 INFO  - Executing ...
+01:57:53 INFO  - DONE!
+01:57:53 INFO  - Building destination table ...
+01:57:53 INFO  - Creating prepared statement
+01:57:53 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+01:57:54 INFO  - Parsed 573 rows
+01:57:54 INFO  - Executing ...
+01:57:54 INFO  - DONE!
+01:57:54 INFO  - Building destination table ...
+01:57:54 INFO  - Creating prepared statement
+01:57:54 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+01:57:56 INFO  - Parsed 613 rows
+01:57:56 INFO  - Executing ...
+01:57:56 INFO  - DONE!
+01:57:56 INFO  - Building destination table ...
+01:57:56 INFO  - Creating prepared statement
+01:57:56 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+01:57:56 INFO  - Parsed 1071 rows
+01:57:56 INFO  - Executing ...
+01:57:56 INFO  - DONE!
+01:57:56 INFO  - Building destination table ...
+01:57:56 INFO  - Creating prepared statement
+01:57:56 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+01:58:19 INFO  - Parsed 113449 rows
+01:58:19 INFO  - Executing ...
+01:58:19 INFO  - DONE!
+01:58:19 INFO  - Building destination table ...
+01:58:19 INFO  - Creating prepared statement
+01:58:19 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+01:58:24 INFO  - Parsed 615 rows
+01:58:24 INFO  - Executing ...
+01:58:24 INFO  - DONE!
+01:58:25 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+01:58:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+01:58:25 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+01:58:49 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+01:58:49 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+01:58:55 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+01:58:55 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+01:58:59 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+01:58:59 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+01:59:03 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+01:59:03 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+01:59:07 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+01:59:07 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+01:59:10 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+01:59:10 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+01:59:14 INFO  - Parsed row 1000
+01:59:14 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+01:59:14 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+01:59:18 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+01:59:18 INFO  - Exist View [view_V4GIS_PRS_Info] ? -> true
+01:59:22 INFO  - Loading Configuration Data
+01:59:22 INFO  - Loading Configuration Data
+01:59:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:59:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:59:22 INFO  - MSSQL.ServerPort : 1433
+01:59:22 INFO  - MSSQL.DBName : ECAP
+01:59:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:59:22 INFO  - MSSQL.Password : Preeth!6131
+01:59:22 INFO  - Initializing database connections
+01:59:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:59:22 INFO  - Finished Loading Configuration Data
+01:59:22 INFO  - Loading Configuration Data
+01:59:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+01:59:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+01:59:22 INFO  - MSSQL.ServerPort : 1433
+01:59:22 INFO  - MSSQL.DBName : ECAP
+01:59:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+01:59:22 INFO  - MSSQL.Password : Preeth!6131
+01:59:22 INFO  - Initializing database connections
+01:59:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+01:59:22 INFO  - Finished Loading Configuration Data
+02:00:46 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more
+02:00:56 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[DatabaseBackupTool-1.0-SNAPSHOT-jar-with-dependencies.jar:?]
+	... 19 more

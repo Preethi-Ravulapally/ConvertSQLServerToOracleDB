@@ -1,0 +1,138 @@
+16:26:49 INFO  - Loading Configuration Data
+16:26:49 INFO  - Loading Configuration Data
+16:26:49 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:26:49 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:26:49 INFO  - MSSQL.ServerPort : 1433
+16:26:49 INFO  - MSSQL.DBName : ECAP
+16:26:49 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:26:49 INFO  - MSSQL.Password : Preeth!6131
+16:26:49 INFO  - Initializing database connections
+16:26:49 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:27:05 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:27:05 INFO  - Finished Loading Configuration Data
+16:27:05 INFO  - Loading Configuration Data
+16:27:05 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:27:05 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:27:05 INFO  - MSSQL.ServerPort : 1433
+16:27:05 INFO  - MSSQL.DBName : ECAP
+16:27:05 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:27:05 INFO  - MSSQL.Password : Preeth!6131
+16:27:05 INFO  - Initializing database connections
+16:27:05 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:27:20 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection timed out: no further information.. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:27:20 INFO  - Finished Loading Configuration Data
+16:27:20 INFO  - Migration.TableNames : tlkpfundcat
+16:27:20 INFO  - [boolean existViewInDB(String viewName[tlkpfundcat])]
+16:27:20 ERROR - java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.checkifViewExists(SQLServer.java:259) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.getViewInformation(SQLServer.java:103) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:22) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:118) [DatabaseBackupTool.jar:?]
+16:27:20 INFO  - Exist View [tlkpfundcat] ? -> false
+16:27:20 INFO  - tlkpfundcatView does not exist in database
+16:27:20 INFO  - view name is adding as not importing views in property file
+16:27:20 INFO  - Loading Configuration Data
+16:27:20 INFO  - Loading Configuration Data
+16:27:20 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:27:20 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:27:20 INFO  - MSSQL.ServerPort : 1433
+16:27:20 INFO  - MSSQL.DBName : ECAP
+16:27:20 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:27:20 INFO  - MSSQL.Password : Preeth!6131
+16:27:20 INFO  - Initializing database connections
+16:27:20 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:29:39 INFO  - Loading Configuration Data
+16:29:39 INFO  - Loading Configuration Data
+16:29:39 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:29:39 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:29:39 INFO  - MSSQL.ServerPort : 1433
+16:29:39 INFO  - MSSQL.DBName : ECAP
+16:29:39 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:29:39 INFO  - MSSQL.Password : Preeth!6131
+16:29:39 INFO  - Initializing database connections
+16:29:39 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:29:54 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:29:54 INFO  - Finished Loading Configuration Data
+16:29:54 INFO  - Loading Configuration Data
+16:29:54 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:29:54 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:29:54 INFO  - MSSQL.ServerPort : 1433
+16:29:54 INFO  - MSSQL.DBName : ECAP
+16:29:54 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:29:54 INFO  - MSSQL.Password : Preeth!6131
+16:29:54 INFO  - Initializing database connections
+16:29:54 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:30:10 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection timed out: no further information.. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:30:10 INFO  - Finished Loading Configuration Data
+16:30:10 INFO  - Migration.TableNames : tlkpfundcat
+16:30:10 INFO  - [boolean existViewInDB(String viewName[tlkpfundcat])]
+16:30:10 ERROR - java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.checkifViewExists(SQLServer.java:259) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.getViewInformation(SQLServer.java:103) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:22) [DatabaseBackupTool.jar:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:118) [DatabaseBackupTool.jar:?]
+16:30:10 INFO  - Exist View [tlkpfundcat] ? -> false
+16:30:10 INFO  - tlkpfundcatView does not exist in database
+16:30:10 INFO  - view name is adding as not importing views in property file
+16:30:10 INFO  - Loading Configuration Data
+16:30:10 INFO  - Loading Configuration Data
+16:30:10 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:30:10 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:30:10 INFO  - MSSQL.ServerPort : 1433
+16:30:10 INFO  - MSSQL.DBName : ECAP
+16:30:10 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:30:10 INFO  - MSSQL.Password : Preeth!6131
+16:30:10 INFO  - Initializing database connections
+16:30:10 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:30:26 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection timed out: no further information.. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:30:26 INFO  - Finished Loading Configuration Data
+16:30:26 ERROR - java.sql.SQLRecoverableException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+16:30:26 ERROR - java.sql.SQLRecoverableException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+16:32:26 INFO  - Loading Configuration Data
+16:32:26 INFO  - Loading Configuration Data
+16:32:26 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:32:26 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:32:26 INFO  - MSSQL.ServerPort : 1433
+16:32:26 INFO  - MSSQL.DBName : ECAP
+16:32:26 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:32:26 INFO  - MSSQL.Password : Preeth!6131
+16:32:26 INFO  - Initializing database connections
+16:32:26 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:32:42 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:32:42 INFO  - Finished Loading Configuration Data
+16:32:42 INFO  - Loading Configuration Data
+16:32:42 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:32:42 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:32:42 INFO  - MSSQL.ServerPort : 1433
+16:32:42 INFO  - MSSQL.DBName : ECAP
+16:32:42 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:32:42 INFO  - MSSQL.Password : Preeth!6131
+16:32:42 INFO  - Initializing database connections
+16:32:42 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:34:07 INFO  - Loading Configuration Data
+16:34:07 INFO  - Loading Configuration Data
+16:34:07 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:34:07 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:34:07 INFO  - MSSQL.ServerPort : 1433
+16:34:07 INFO  - MSSQL.DBName : ECAP
+16:34:07 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:34:07 INFO  - MSSQL.Password : Preeth!6131
+16:34:07 INFO  - Initializing database connections
+16:34:07 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:34:23 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+16:34:23 INFO  - Finished Loading Configuration Data
+16:34:23 INFO  - Loading Configuration Data
+16:34:23 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:34:23 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:34:23 INFO  - MSSQL.ServerPort : 1433
+16:34:23 INFO  - MSSQL.DBName : ECAP
+16:34:23 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:34:23 INFO  - MSSQL.Password : Preeth!6131
+16:34:23 INFO  - Initializing database connections
+16:34:23 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true

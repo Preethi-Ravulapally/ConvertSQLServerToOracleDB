@@ -1,0 +1,3 @@
+    2020-05-06 23:06:32 | ${ctx:appUrl} | INFO  |  DatabaseBackupTool.Migrator:<init>:34 | Loading Configuration Data
+    2020-05-06 23:07:09 | ${ctx:appUrl} | INFO  |  DatabaseBackupTool.Migrator:<init>:70 | Initializing database connections
+    2020-05-06 23:07:09 | ${ctx:appUrl} | INFO  |  DatabaseBackupTool.Migrator:<init>:76 | Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true

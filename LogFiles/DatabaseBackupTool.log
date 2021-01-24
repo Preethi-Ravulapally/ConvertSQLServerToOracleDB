@@ -1,0 +1,185 @@
+14:18:36 INFO  - Loading Configuration Data
+14:18:36 INFO  - Loading Configuration Data
+14:18:36 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:36 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:36 INFO  - MSSQL.ServerPort : 1433
+14:18:36 INFO  - MSSQL.DBName : ECAP
+14:18:36 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:36 INFO  - MSSQL.Password : Preeth!6131
+14:18:36 INFO  - Initializing database connections
+14:18:36 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:18:52 INFO  - Loading Configuration Data
+14:18:52 INFO  - Loading Configuration Data
+14:18:52 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:18:52 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:18:52 INFO  - MSSQL.ServerPort : 1433
+14:18:52 INFO  - MSSQL.DBName : ECAP
+14:18:52 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:18:52 INFO  - MSSQL.Password : Preeth!6131
+14:18:52 INFO  - Initializing database connections
+14:18:52 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:19:07 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:cfe2e9a6-7f2b-4c99-805d-d651c042ed1d
+14:19:07 INFO  - Finished Loading Configuration Data
+14:19:07 INFO  - Loading Configuration Data
+14:19:07 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:19:07 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:19:07 INFO  - MSSQL.ServerPort : 1433
+14:19:07 INFO  - MSSQL.DBName : ECAP
+14:19:07 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:19:07 INFO  - MSSQL.Password : Preeth!6131
+14:19:07 INFO  - Initializing database connections
+14:19:07 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:19:22 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:e6c3457b-338f-4c23-bd41-f70be4aa17ed
+14:19:22 INFO  - Finished Loading Configuration Data
+14:19:22 INFO  - Migration.TableNames : tlkpfundcat
+14:19:22 INFO  - [boolean existViewInDB(String viewName[tlkpfundcat])]
+14:19:22 ERROR - java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.checkifViewExists(SQLServer.java:255) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.getViewInformation(SQLServer.java:103) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:22) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:118) [classes/:?]
+14:19:22 INFO  - Exist View [tlkpfundcat] ? -> false
+14:19:22 INFO  - tlkpfundcatView does not exist in database
+14:19:22 INFO  - view name is adding as not importing views in property file
+14:19:22 INFO  - Loading Configuration Data
+14:19:22 INFO  - Loading Configuration Data
+14:19:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:19:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:19:22 INFO  - MSSQL.ServerPort : 1433
+14:19:22 INFO  - MSSQL.DBName : ECAP
+14:19:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:19:22 INFO  - MSSQL.Password : Preeth!6131
+14:19:22 INFO  - Initializing database connections
+14:19:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:19:36 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:c295cf66-089d-4766-8208-19adea9e51e4
+14:19:36 INFO  - Finished Loading Configuration Data
+14:19:36 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:19:36 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:19:53 INFO  - Loading Configuration Data
+14:19:53 INFO  - Loading Configuration Data
+14:19:53 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:19:53 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:19:53 INFO  - MSSQL.ServerPort : 1433
+14:19:53 INFO  - MSSQL.DBName : ECAP
+14:19:53 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:19:53 INFO  - MSSQL.Password : Preeth!6131
+14:19:53 INFO  - Initializing database connections
+14:19:53 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:20:07 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:614aa21f-2f0b-4164-a4f0-56a5826138c3
+14:20:07 INFO  - Finished Loading Configuration Data
+14:20:07 INFO  - Loading Configuration Data
+14:20:07 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:20:07 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:20:07 INFO  - MSSQL.ServerPort : 1433
+14:20:07 INFO  - MSSQL.DBName : ECAP
+14:20:07 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:20:07 INFO  - MSSQL.Password : Preeth!6131
+14:20:07 INFO  - Initializing database connections
+14:20:07 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:20:22 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:50b333e3-bfc3-43e8-945b-ac5e3a1d6236
+14:20:22 INFO  - Finished Loading Configuration Data
+14:20:22 INFO  - Migration.TableNames : tlkpfundcat
+14:20:22 INFO  - [boolean existViewInDB(String viewName[tlkpfundcat])]
+14:20:22 ERROR - java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.checkifViewExists(SQLServer.java:255) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.getViewInformation(SQLServer.java:103) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:22) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:118) [classes/:?]
+14:20:22 INFO  - Exist View [tlkpfundcat] ? -> false
+14:20:22 INFO  - tlkpfundcatView does not exist in database
+14:20:22 INFO  - view name is adding as not importing views in property file
+14:20:22 INFO  - Loading Configuration Data
+14:20:22 INFO  - Loading Configuration Data
+14:20:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:20:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:20:22 INFO  - MSSQL.ServerPort : 1433
+14:20:22 INFO  - MSSQL.DBName : ECAP
+14:20:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:20:22 INFO  - MSSQL.Password : Preeth!6131
+14:20:22 INFO  - Initializing database connections
+14:20:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:20:37 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:0ae41895-eb23-477c-b4c0-f628ce64f29f
+14:20:37 INFO  - Finished Loading Configuration Data
+14:20:37 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:20:37 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:20:44 INFO  - Loading Configuration Data
+14:20:44 INFO  - Loading Configuration Data
+14:20:44 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:20:44 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:20:44 INFO  - MSSQL.ServerPort : 1433
+14:20:44 INFO  - MSSQL.DBName : ECAP
+14:20:44 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:20:44 INFO  - MSSQL.Password : Preeth!6131
+14:20:44 INFO  - Initializing database connections
+14:20:44 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:20:58 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:80f9430c-d2c9-4ec6-9485-489701545f5e
+14:20:58 INFO  - Finished Loading Configuration Data
+14:20:58 INFO  - Loading Configuration Data
+14:20:58 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:20:58 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:20:58 INFO  - MSSQL.ServerPort : 1433
+14:20:58 INFO  - MSSQL.DBName : ECAP
+14:20:58 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:20:58 INFO  - MSSQL.Password : Preeth!6131
+14:20:58 INFO  - Initializing database connections
+14:20:58 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:21:13 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:2d2f89ed-13f6-4494-802f-82182f2b5b77
+14:21:13 INFO  - Finished Loading Configuration Data
+14:21:13 INFO  - Migration.TableNames : tlkpfundcat
+14:21:13 INFO  - [boolean existViewInDB(String viewName[tlkpfundcat])]
+14:21:13 ERROR - java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.checkifViewExists(SQLServer.java:255) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.SQLServer.getViewInformation(SQLServer.java:103) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:22) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:118) [classes/:?]
+14:21:13 INFO  - Exist View [tlkpfundcat] ? -> false
+14:21:13 INFO  - tlkpfundcatView does not exist in database
+14:21:13 INFO  - view name is adding as not importing views in property file
+14:21:13 INFO  - Loading Configuration Data
+14:21:13 INFO  - Loading Configuration Data
+14:21:13 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:21:13 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:21:13 INFO  - MSSQL.ServerPort : 1433
+14:21:13 INFO  - MSSQL.DBName : ECAP
+14:21:13 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:21:13 INFO  - MSSQL.Password : Preeth!6131
+14:21:13 INFO  - Initializing database connections
+14:21:13 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:21:28 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:139857ad-aacd-451d-8715-5ae3377da205
+14:21:28 INFO  - Finished Loading Configuration Data
+14:21:28 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:21:28 ERROR - java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+14:21:46 INFO  - Loading Configuration Data
+14:21:46 INFO  - Loading Configuration Data
+14:21:46 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:21:46 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:21:46 INFO  - MSSQL.ServerPort : 1433
+14:21:46 INFO  - MSSQL.DBName : ECAP
+14:21:46 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:21:46 INFO  - MSSQL.Password : Preeth!6131
+14:21:46 INFO  - Initializing database connections
+14:21:46 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:22:01 ERROR - com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:33b90a95-f013-4805-b633-e670fe6acbe0
+14:22:01 INFO  - Finished Loading Configuration Data
+14:22:01 INFO  - Loading Configuration Data
+14:22:01 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:22:01 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:22:01 INFO  - MSSQL.ServerPort : 1433
+14:22:01 INFO  - MSSQL.DBName : ECAP
+14:22:01 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:22:01 INFO  - MSSQL.Password : Preeth!6131
+14:22:01 INFO  - Initializing database connections
+14:22:01 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:24:20 INFO  - Loading Configuration Data
+14:24:20 INFO  - Loading Configuration Data
+14:24:20 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:24:20 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:24:20 INFO  - MSSQL.ServerPort : 1433
+14:24:20 INFO  - MSSQL.DBName : ECAP
+14:24:20 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:24:20 INFO  - MSSQL.Password : Preeth!6131
+14:24:20 INFO  - Initializing database connections
+14:24:20 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true

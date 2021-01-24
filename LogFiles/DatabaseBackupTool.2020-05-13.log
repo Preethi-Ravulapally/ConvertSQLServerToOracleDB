@@ -1,0 +1,1587 @@
+12:53:39 INFO  - Loading Configuration Data
+12:53:40 INFO  - Loading Configuration Data
+12:53:40 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+12:53:40 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+12:53:40 INFO  - MSSQL.ServerPort : 1433
+12:53:40 INFO  - MSSQL.DBName : ECAP
+12:53:40 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+12:53:40 INFO  - MSSQL.Password : Preeth!6131
+12:53:40 INFO  - Initializing database connections
+12:53:40 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+12:53:42 INFO  - Finished Loading Configuration Data
+12:53:42 INFO  - Loading Configuration Data
+12:53:42 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+12:53:42 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+12:53:42 INFO  - MSSQL.ServerPort : 1433
+12:53:42 INFO  - MSSQL.DBName : ECAP
+12:53:42 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+12:53:42 INFO  - MSSQL.Password : Preeth!6131
+12:53:42 INFO  - Initializing database connections
+12:53:42 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+12:53:42 INFO  - Finished Loading Configuration Data
+12:53:42 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+12:53:42 INFO  - Building destination table ...
+12:53:42 INFO  - Creating prepared statement
+12:53:42 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+12:53:54 INFO  - Parsed 65535 rows
+12:53:54 INFO  - Executing ...
+12:53:54 INFO  - DONE!
+12:53:55 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+12:53:55 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+12:53:55 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+12:54:22 INFO  - Loading Configuration Data
+12:54:22 INFO  - Loading Configuration Data
+12:54:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+12:54:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+12:54:22 INFO  - MSSQL.ServerPort : 1433
+12:54:22 INFO  - MSSQL.DBName : ECAP
+12:54:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+12:54:22 INFO  - MSSQL.Password : Preeth!6131
+12:54:22 INFO  - Initializing database connections
+12:54:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+12:54:22 INFO  - Finished Loading Configuration Data
+12:54:22 INFO  - Loading Configuration Data
+12:54:22 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+12:54:22 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+12:54:22 INFO  - MSSQL.ServerPort : 1433
+12:54:22 INFO  - MSSQL.DBName : ECAP
+12:54:22 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+12:54:22 INFO  - MSSQL.Password : Preeth!6131
+12:54:22 INFO  - Initializing database connections
+12:54:22 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+12:54:22 INFO  - Finished Loading Configuration Data
+12:55:36 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:96) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+13:02:23 INFO  - Loading Configuration Data
+13:02:23 INFO  - Loading Configuration Data
+13:02:23 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:02:23 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:02:23 INFO  - MSSQL.ServerPort : 1433
+13:02:23 INFO  - MSSQL.DBName : ECAP
+13:02:23 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:02:23 INFO  - MSSQL.Password : Preeth!6131
+13:02:23 INFO  - Initializing database connections
+13:02:24 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:02:25 INFO  - Finished Loading Configuration Data
+13:02:25 INFO  - Loading Configuration Data
+13:02:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:02:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:02:25 INFO  - MSSQL.ServerPort : 1433
+13:02:25 INFO  - MSSQL.DBName : ECAP
+13:02:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:02:25 INFO  - MSSQL.Password : Preeth!6131
+13:02:25 INFO  - Initializing database connections
+13:02:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:02:25 INFO  - Finished Loading Configuration Data
+13:02:25 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:02:27 INFO  - Building destination table ...
+13:02:27 INFO  - Creating prepared statement
+13:02:27 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:02:39 INFO  - Parsed 65535 rows
+13:02:39 INFO  - Executing ...
+13:02:39 INFO  - DONE!
+13:02:40 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:02:40 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+13:02:40 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+13:02:41 INFO  - Loading Configuration Data
+13:02:41 INFO  - Loading Configuration Data
+13:02:41 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:02:41 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:02:41 INFO  - MSSQL.ServerPort : 1433
+13:02:41 INFO  - MSSQL.DBName : ECAP
+13:02:41 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:02:41 INFO  - MSSQL.Password : Preeth!6131
+13:02:41 INFO  - Initializing database connections
+13:02:41 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:02:41 INFO  - Finished Loading Configuration Data
+13:02:42 ERROR - java.sql.SQLException: ORA-31603: object "view_v4PRS_P3e_Prod_New_Old_Act_DOT" of type TABLE not found in schema "ECAP"
+ORA-06512: at "SYS.DBMS_METADATA", line 6478
+ORA-06512: at "SYS.DBMS_SYS_ERROR", line 105
+ORA-06512: at "SYS.DBMS_METADATA", line 2421
+ORA-06512: at "SYS.DBMS_METADATA", line 2660
+ORA-06512: at "SYS.DBMS_METADATA", line 3423
+ORA-06512: at "SYS.DBMS_METADATA", line 4760
+ORA-06512: at "SYS.DBMS_METADATA", line 5088
+ORA-06512: at "SYS.DBMS_METADATA", line 6449
+ORA-06512: at "SYS.DBMS_METADATA", line 9202
+ORA-06512: at line 1
+
+13:04:42 INFO  - Loading Configuration Data
+13:04:42 INFO  - Loading Configuration Data
+13:04:42 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:04:42 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:04:42 INFO  - MSSQL.ServerPort : 1433
+13:04:42 INFO  - MSSQL.DBName : ECAP
+13:04:42 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:04:42 INFO  - MSSQL.Password : Preeth!6131
+13:04:42 INFO  - Initializing database connections
+13:04:43 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:04:44 INFO  - Finished Loading Configuration Data
+13:04:44 INFO  - Loading Configuration Data
+13:04:44 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:04:44 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:04:44 INFO  - MSSQL.ServerPort : 1433
+13:04:44 INFO  - MSSQL.DBName : ECAP
+13:04:44 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:04:44 INFO  - MSSQL.Password : Preeth!6131
+13:04:44 INFO  - Initializing database connections
+13:04:44 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:04:44 INFO  - Finished Loading Configuration Data
+13:04:44 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:04:45 INFO  - Building destination table ...
+13:04:45 INFO  - Creating prepared statement
+13:04:45 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:04:54 INFO  - Parsed 65535 rows
+13:04:54 INFO  - Executing ...
+13:04:54 INFO  - DONE!
+13:04:55 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+13:04:55 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+13:04:55 INFO  - table doesnot exist in the Oracle database
+13:04:55 INFO  - Loading Configuration Data
+13:04:55 INFO  - Loading Configuration Data
+13:04:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:04:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:04:55 INFO  - MSSQL.ServerPort : 1433
+13:04:55 INFO  - MSSQL.DBName : ECAP
+13:04:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:04:55 INFO  - MSSQL.Password : Preeth!6131
+13:04:55 INFO  - Initializing database connections
+13:04:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:04:55 INFO  - Finished Loading Configuration Data
+13:04:55 INFO  - Loading Configuration Data
+13:04:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+13:04:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+13:04:55 INFO  - MSSQL.ServerPort : 1433
+13:04:55 INFO  - MSSQL.DBName : ECAP
+13:04:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+13:04:55 INFO  - MSSQL.Password : Preeth!6131
+13:04:55 INFO  - Initializing database connections
+13:04:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+13:04:55 INFO  - Finished Loading Configuration Data
+13:05:47 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:97) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+14:10:39 INFO  - Loading Configuration Data
+14:10:40 INFO  - Loading Configuration Data
+14:10:40 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:10:40 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:10:40 INFO  - MSSQL.ServerPort : 1433
+14:10:40 INFO  - MSSQL.DBName : ECAP
+14:10:40 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:10:40 INFO  - MSSQL.Password : Preeth!6131
+14:10:40 INFO  - Initializing database connections
+14:10:40 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:10:41 INFO  - Finished Loading Configuration Data
+14:10:41 INFO  - Loading Configuration Data
+14:10:41 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:10:41 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:10:41 INFO  - MSSQL.ServerPort : 1433
+14:10:41 INFO  - MSSQL.DBName : ECAP
+14:10:41 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:10:41 INFO  - MSSQL.Password : Preeth!6131
+14:10:41 INFO  - Initializing database connections
+14:10:41 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:10:41 INFO  - Finished Loading Configuration Data
+14:10:41 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:10:42 INFO  - Building destination table ...
+14:10:42 INFO  - Creating prepared statement
+14:10:42 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:10:50 INFO  - Parsed 65535 rows
+14:10:50 INFO  - Executing ...
+14:10:50 INFO  - DONE!
+14:10:51 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:10:51 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+14:10:51 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+14:10:51 INFO  - Loading Configuration Data
+14:10:51 INFO  - Loading Configuration Data
+14:10:51 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:10:51 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:10:51 INFO  - MSSQL.ServerPort : 1433
+14:10:51 INFO  - MSSQL.DBName : ECAP
+14:10:51 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:10:51 INFO  - MSSQL.Password : Preeth!6131
+14:10:51 INFO  - Initializing database connections
+14:10:51 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:10:51 INFO  - Finished Loading Configuration Data
+14:10:52 ERROR - java.sql.SQLException: ORA-31603: object "view_v4PRS_P3e_Prod_New_Old_Act_DOT" of type TABLE not found in schema "ECAP"
+ORA-06512: at "SYS.DBMS_METADATA", line 6478
+ORA-06512: at "SYS.DBMS_SYS_ERROR", line 105
+ORA-06512: at "SYS.DBMS_METADATA", line 2421
+ORA-06512: at "SYS.DBMS_METADATA", line 2660
+ORA-06512: at "SYS.DBMS_METADATA", line 3423
+ORA-06512: at "SYS.DBMS_METADATA", line 4760
+ORA-06512: at "SYS.DBMS_METADATA", line 5088
+ORA-06512: at "SYS.DBMS_METADATA", line 6449
+ORA-06512: at "SYS.DBMS_METADATA", line 9202
+ORA-06512: at line 1
+
+14:11:23 INFO  - Loading Configuration Data
+14:11:23 INFO  - Loading Configuration Data
+14:11:23 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:11:23 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:11:23 INFO  - MSSQL.ServerPort : 1433
+14:11:23 INFO  - MSSQL.DBName : ECAP
+14:11:23 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:11:23 INFO  - MSSQL.Password : Preeth!6131
+14:11:23 INFO  - Initializing database connections
+14:11:23 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:11:24 INFO  - Finished Loading Configuration Data
+14:11:24 INFO  - Loading Configuration Data
+14:11:24 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:11:24 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:11:24 INFO  - MSSQL.ServerPort : 1433
+14:11:24 INFO  - MSSQL.DBName : ECAP
+14:11:24 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:11:24 INFO  - MSSQL.Password : Preeth!6131
+14:11:24 INFO  - Initializing database connections
+14:11:24 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:11:24 INFO  - Finished Loading Configuration Data
+14:11:24 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:11:26 INFO  - Building destination table ...
+14:11:26 INFO  - Creating prepared statement
+14:11:26 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:11:37 INFO  - Parsed 65535 rows
+14:11:37 INFO  - Executing ...
+14:11:37 INFO  - DONE!
+14:11:38 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:11:38 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+14:11:38 INFO  - table doesnot exist in the Oracle database
+14:11:38 INFO  - Loading Configuration Data
+14:11:38 INFO  - Loading Configuration Data
+14:11:38 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:11:38 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:11:38 INFO  - MSSQL.ServerPort : 1433
+14:11:38 INFO  - MSSQL.DBName : ECAP
+14:11:38 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:11:38 INFO  - MSSQL.Password : Preeth!6131
+14:11:38 INFO  - Initializing database connections
+14:11:38 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:11:38 INFO  - Finished Loading Configuration Data
+14:11:38 INFO  - Loading Configuration Data
+14:11:38 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:11:38 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:11:38 INFO  - MSSQL.ServerPort : 1433
+14:11:38 INFO  - MSSQL.DBName : ECAP
+14:11:38 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:11:38 INFO  - MSSQL.Password : Preeth!6131
+14:11:38 INFO  - Initializing database connections
+14:11:38 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:11:38 INFO  - Finished Loading Configuration Data
+14:15:54 INFO  - Loading Configuration Data
+14:15:54 INFO  - Loading Configuration Data
+14:15:54 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:15:54 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:15:54 INFO  - MSSQL.ServerPort : 1433
+14:15:54 INFO  - MSSQL.DBName : ECAP
+14:15:54 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:15:54 INFO  - MSSQL.Password : Preeth!6131
+14:15:54 INFO  - Initializing database connections
+14:15:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:15:56 INFO  - Finished Loading Configuration Data
+14:15:56 INFO  - Loading Configuration Data
+14:15:56 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:15:56 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:15:56 INFO  - MSSQL.ServerPort : 1433
+14:15:56 INFO  - MSSQL.DBName : ECAP
+14:15:56 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:15:56 INFO  - MSSQL.Password : Preeth!6131
+14:15:56 INFO  - Initializing database connections
+14:15:56 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:15:56 INFO  - Finished Loading Configuration Data
+14:15:56 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:16:31 INFO  - Building destination table ...
+14:16:31 INFO  - Creating prepared statement
+14:16:31 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:16:40 INFO  - Parsed 65535 rows
+14:16:40 INFO  - Executing ...
+14:16:40 INFO  - DONE!
+14:16:40 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:16:40 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+14:16:41 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+14:27:41 INFO  - Parsed row 1000
+14:27:41 INFO  - Parsed row 2000
+14:27:41 INFO  - Parsed row 3000
+14:27:41 INFO  - Parsed row 4000
+14:27:41 INFO  - Parsed row 5000
+14:27:41 INFO  - Parsed row 6000
+14:27:41 INFO  - Parsed row 7000
+14:27:41 INFO  - Parsed row 8000
+14:27:41 INFO  - Parsed row 9000
+14:27:41 INFO  - Parsed row 10000
+14:27:41 INFO  - Parsed row 11000
+14:27:41 INFO  - Parsed row 12000
+14:27:41 INFO  - Parsed row 13000
+14:27:41 INFO  - Parsed row 14000
+14:27:41 INFO  - Parsed row 15000
+14:27:42 INFO  - Parsed row 16000
+14:27:42 INFO  - Parsed row 17000
+14:27:42 INFO  - Parsed row 18000
+14:27:42 INFO  - Parsed row 19000
+14:27:42 INFO  - Parsed row 20000
+14:27:42 INFO  - Parsed row 21000
+14:27:42 INFO  - Parsed row 22000
+14:27:42 INFO  - Parsed row 23000
+14:27:42 INFO  - Parsed row 24000
+14:27:42 INFO  - Parsed row 25000
+14:27:42 INFO  - Parsed row 26000
+14:27:42 INFO  - Parsed row 27000
+14:27:42 INFO  - Parsed row 28000
+14:27:42 INFO  - Parsed row 29000
+14:27:42 INFO  - Parsed row 30000
+14:27:42 INFO  - Parsed row 31000
+14:27:42 INFO  - Parsed row 32000
+14:27:42 INFO  - Parsed row 33000
+14:27:42 INFO  - Parsed row 34000
+14:27:42 INFO  - Parsed row 35000
+14:27:42 INFO  - Parsed row 36000
+14:27:42 INFO  - Parsed row 37000
+14:27:42 INFO  - Parsed row 38000
+14:27:42 INFO  - Parsed row 39000
+14:27:42 INFO  - Parsed row 40000
+14:27:42 INFO  - Parsed row 41000
+14:27:42 INFO  - Parsed row 42000
+14:27:42 INFO  - Parsed row 43000
+14:27:42 INFO  - Parsed row 44000
+14:27:42 INFO  - Parsed row 45000
+14:27:42 INFO  - Parsed row 46000
+14:27:42 INFO  - Parsed row 47000
+14:27:43 INFO  - Parsed row 48000
+14:27:43 INFO  - Parsed row 49000
+14:27:43 INFO  - Parsed row 50000
+14:27:43 INFO  - Parsed row 51000
+14:27:43 INFO  - Parsed row 52000
+14:27:43 INFO  - Parsed row 53000
+14:27:43 INFO  - Parsed row 54000
+14:27:43 INFO  - Parsed row 55000
+14:27:43 INFO  - Parsed row 56000
+14:27:43 INFO  - Parsed row 57000
+14:27:43 INFO  - Parsed row 58000
+14:27:43 INFO  - Parsed row 59000
+14:27:43 INFO  - Parsed row 60000
+14:27:43 INFO  - Parsed row 61000
+14:27:43 INFO  - Parsed row 62000
+14:27:43 INFO  - Parsed row 63000
+14:27:43 INFO  - Parsed row 64000
+14:27:43 INFO  - Parsed row 65000
+14:27:43 INFO  - Loading Configuration Data
+14:27:43 INFO  - Loading Configuration Data
+14:27:43 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:27:43 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:27:43 INFO  - MSSQL.ServerPort : 1433
+14:27:43 INFO  - MSSQL.DBName : ECAP
+14:27:43 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:27:43 INFO  - MSSQL.Password : Preeth!6131
+14:27:43 INFO  - Initializing database connections
+14:27:43 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:27:43 INFO  - Finished Loading Configuration Data
+14:27:43 INFO  - Loading Configuration Data
+14:27:43 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:27:43 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:27:43 INFO  - MSSQL.ServerPort : 1433
+14:27:43 INFO  - MSSQL.DBName : ECAP
+14:27:43 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:27:43 INFO  - MSSQL.Password : Preeth!6131
+14:27:43 INFO  - Initializing database connections
+14:27:43 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:27:44 INFO  - Finished Loading Configuration Data
+14:49:18 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:98) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+14:50:54 INFO  - Loading Configuration Data
+14:50:54 INFO  - Loading Configuration Data
+14:50:54 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:50:54 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:50:54 INFO  - MSSQL.ServerPort : 1433
+14:50:54 INFO  - MSSQL.DBName : ECAP
+14:50:54 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:50:54 INFO  - MSSQL.Password : Preeth!6131
+14:50:54 INFO  - Initializing database connections
+14:50:54 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:50:55 INFO  - Finished Loading Configuration Data
+14:50:55 INFO  - Loading Configuration Data
+14:50:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:50:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:50:55 INFO  - MSSQL.ServerPort : 1433
+14:50:55 INFO  - MSSQL.DBName : ECAP
+14:50:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:50:55 INFO  - MSSQL.Password : Preeth!6131
+14:50:55 INFO  - Initializing database connections
+14:50:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:50:55 INFO  - Finished Loading Configuration Data
+14:50:55 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:52:42 INFO  - Loading Configuration Data
+14:52:42 INFO  - Loading Configuration Data
+14:52:43 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:52:43 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:52:43 INFO  - MSSQL.ServerPort : 1433
+14:52:43 INFO  - MSSQL.DBName : ECAP
+14:52:43 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:52:43 INFO  - MSSQL.Password : Preeth!6131
+14:52:43 INFO  - Initializing database connections
+14:52:43 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:52:44 INFO  - Finished Loading Configuration Data
+14:52:44 INFO  - Loading Configuration Data
+14:52:44 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:52:44 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:52:44 INFO  - MSSQL.ServerPort : 1433
+14:52:44 INFO  - MSSQL.DBName : ECAP
+14:52:44 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:52:44 INFO  - MSSQL.Password : Preeth!6131
+14:52:44 INFO  - Initializing database connections
+14:52:44 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:52:44 INFO  - Finished Loading Configuration Data
+14:52:44 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:52:45 INFO  - Building destination table ...
+14:52:45 INFO  - Creating prepared statement
+14:52:45 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:52:54 INFO  - Parsed 65535 rows
+14:52:54 INFO  - Executing ...
+14:52:54 INFO  - DONE!
+14:52:55 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:52:55 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+14:52:55 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+14:53:21 INFO  - Loading Configuration Data
+14:53:21 INFO  - Loading Configuration Data
+14:53:21 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:53:21 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:53:21 INFO  - MSSQL.ServerPort : 1433
+14:53:21 INFO  - MSSQL.DBName : ECAP
+14:53:21 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:53:21 INFO  - MSSQL.Password : Preeth!6131
+14:53:21 INFO  - Initializing database connections
+14:53:21 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:53:21 INFO  - Finished Loading Configuration Data
+14:53:21 INFO  - Loading Configuration Data
+14:53:21 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:53:21 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:53:21 INFO  - MSSQL.ServerPort : 1433
+14:53:21 INFO  - MSSQL.DBName : ECAP
+14:53:21 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:53:21 INFO  - MSSQL.Password : Preeth!6131
+14:53:21 INFO  - Initializing database connections
+14:53:21 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:53:21 INFO  - Finished Loading Configuration Data
+14:57:18 INFO  - Loading Configuration Data
+14:57:18 INFO  - Loading Configuration Data
+14:57:18 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:57:18 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:57:18 INFO  - MSSQL.ServerPort : 1433
+14:57:18 INFO  - MSSQL.DBName : ECAP
+14:57:18 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:57:18 INFO  - MSSQL.Password : Preeth!6131
+14:57:18 INFO  - Initializing database connections
+14:57:18 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:57:19 INFO  - Finished Loading Configuration Data
+14:57:19 INFO  - Loading Configuration Data
+14:57:19 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+14:57:19 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+14:57:19 INFO  - MSSQL.ServerPort : 1433
+14:57:19 INFO  - MSSQL.DBName : ECAP
+14:57:19 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+14:57:19 INFO  - MSSQL.Password : Preeth!6131
+14:57:19 INFO  - Initializing database connections
+14:57:19 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+14:57:19 INFO  - Finished Loading Configuration Data
+14:57:19 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:57:20 INFO  - Building destination table ...
+14:57:20 INFO  - Creating prepared statement
+14:57:20 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:57:31 INFO  - Parsed 65535 rows
+14:57:31 INFO  - Executing ...
+14:57:31 INFO  - DONE!
+14:57:32 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+14:57:32 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+14:57:32 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+15:00:15 INFO  - Parsed row 1000
+15:00:15 INFO  - Parsed row 2000
+15:00:15 INFO  - Parsed row 3000
+15:00:15 INFO  - Parsed row 4000
+15:00:15 INFO  - Parsed row 5000
+15:00:15 INFO  - Parsed row 6000
+15:00:15 INFO  - Parsed row 7000
+15:00:15 INFO  - Parsed row 8000
+15:00:16 INFO  - Parsed row 9000
+15:00:16 INFO  - Parsed row 10000
+15:00:16 INFO  - Parsed row 11000
+15:00:16 INFO  - Parsed row 12000
+15:00:16 INFO  - Parsed row 13000
+15:00:16 INFO  - Parsed row 14000
+15:00:16 INFO  - Parsed row 15000
+15:00:16 INFO  - Parsed row 16000
+15:00:16 INFO  - Parsed row 17000
+15:00:16 INFO  - Parsed row 18000
+15:00:16 INFO  - Parsed row 19000
+15:00:16 INFO  - Parsed row 20000
+15:00:16 INFO  - Parsed row 21000
+15:00:16 INFO  - Parsed row 22000
+15:00:16 INFO  - Parsed row 23000
+15:00:16 INFO  - Parsed row 24000
+15:00:16 INFO  - Parsed row 25000
+15:00:16 INFO  - Parsed row 26000
+15:00:16 INFO  - Parsed row 27000
+15:00:16 INFO  - Parsed row 28000
+15:00:16 INFO  - Parsed row 29000
+15:00:16 INFO  - Parsed row 30000
+15:00:16 INFO  - Parsed row 31000
+15:00:17 INFO  - Parsed row 32000
+15:00:17 INFO  - Parsed row 33000
+15:00:17 INFO  - Parsed row 34000
+15:00:17 INFO  - Parsed row 35000
+15:00:17 INFO  - Parsed row 36000
+15:00:17 INFO  - Parsed row 37000
+15:00:17 INFO  - Parsed row 38000
+15:00:17 INFO  - Parsed row 39000
+15:00:17 INFO  - Parsed row 40000
+15:00:17 INFO  - Parsed row 41000
+15:00:17 INFO  - Parsed row 42000
+15:00:17 INFO  - Parsed row 43000
+15:00:17 INFO  - Parsed row 44000
+15:00:17 INFO  - Parsed row 45000
+15:00:17 INFO  - Parsed row 46000
+15:00:17 INFO  - Parsed row 47000
+15:00:17 INFO  - Parsed row 48000
+15:00:17 INFO  - Parsed row 49000
+15:00:17 INFO  - Parsed row 50000
+15:00:17 INFO  - Parsed row 51000
+15:00:17 INFO  - Parsed row 52000
+15:00:17 INFO  - Parsed row 53000
+15:00:17 INFO  - Parsed row 54000
+15:00:17 INFO  - Parsed row 55000
+15:00:17 INFO  - Parsed row 56000
+15:00:17 INFO  - Parsed row 57000
+15:00:17 INFO  - Parsed row 58000
+15:00:18 INFO  - Parsed row 59000
+15:00:18 INFO  - Parsed row 60000
+15:00:18 INFO  - Parsed row 61000
+15:00:18 INFO  - Parsed row 62000
+15:00:18 INFO  - Parsed row 63000
+15:00:18 INFO  - Parsed row 64000
+15:00:18 INFO  - Parsed row 65000
+15:00:48 INFO  - Loading Configuration Data
+15:00:48 INFO  - Loading Configuration Data
+15:00:48 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:00:48 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:00:48 INFO  - MSSQL.ServerPort : 1433
+15:00:48 INFO  - MSSQL.DBName : ECAP
+15:00:48 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:00:48 INFO  - MSSQL.Password : Preeth!6131
+15:00:48 INFO  - Initializing database connections
+15:00:48 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:00:48 INFO  - Finished Loading Configuration Data
+15:00:48 INFO  - Loading Configuration Data
+15:00:48 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:00:48 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:00:48 INFO  - MSSQL.ServerPort : 1433
+15:00:48 INFO  - MSSQL.DBName : ECAP
+15:00:48 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:00:48 INFO  - MSSQL.Password : Preeth!6131
+15:00:48 INFO  - Initializing database connections
+15:00:48 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:00:48 INFO  - Finished Loading Configuration Data
+15:13:22 ERROR - view_v4PRS_P3e_Prod_New_Old_Act_DOT
+java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:99) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01756: quoted string not properly terminated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+15:13:35 INFO  - Loading Configuration Data
+15:13:36 INFO  - Loading Configuration Data
+15:13:36 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:13:36 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:13:36 INFO  - MSSQL.ServerPort : 1433
+15:13:36 INFO  - MSSQL.DBName : ECAP
+15:13:36 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:13:36 INFO  - MSSQL.Password : Preeth!6131
+15:13:36 INFO  - Initializing database connections
+15:13:36 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:13:40 INFO  - Finished Loading Configuration Data
+15:14:11 INFO  - Loading Configuration Data
+15:14:11 INFO  - Loading Configuration Data
+15:14:11 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:14:11 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:14:11 INFO  - MSSQL.ServerPort : 1433
+15:14:11 INFO  - MSSQL.DBName : ECAP
+15:14:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:14:11 INFO  - MSSQL.Password : Preeth!6131
+15:14:11 INFO  - Initializing database connections
+15:14:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:14:11 INFO  - Finished Loading Configuration Data
+15:14:32 ERROR - java.sql.SQLSyntaxErrorException: ORA-00922: missing or invalid option
+
+15:14:32 ERROR - java.sql.SQLSyntaxErrorException: ORA-01756: quoted string not properly terminated
+
+15:16:41 INFO  - Loading Configuration Data
+15:16:42 INFO  - Loading Configuration Data
+15:16:42 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:16:42 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:16:42 INFO  - MSSQL.ServerPort : 1433
+15:16:42 INFO  - MSSQL.DBName : ECAP
+15:16:42 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:16:42 INFO  - MSSQL.Password : Preeth!6131
+15:16:42 INFO  - Initializing database connections
+15:16:42 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:16:43 INFO  - Finished Loading Configuration Data
+15:16:43 INFO  - Loading Configuration Data
+15:16:43 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:16:43 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:16:43 INFO  - MSSQL.ServerPort : 1433
+15:16:43 INFO  - MSSQL.DBName : ECAP
+15:16:43 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:16:43 INFO  - MSSQL.Password : Preeth!6131
+15:16:43 INFO  - Initializing database connections
+15:16:43 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:16:43 INFO  - Finished Loading Configuration Data
+15:16:44 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+15:16:44 INFO  - Building destination table ...
+15:16:44 INFO  - Creating prepared statement
+15:16:44 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+15:16:55 INFO  - Parsed 65535 rows
+15:16:55 INFO  - Executing ...
+15:16:55 INFO  - DONE!
+15:16:56 INFO  - Migration.TableNames : view_v4PRS_P3e_Prod_New_Old_Act_DOT
+15:16:56 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+15:16:56 INFO  - table doesnot exist in the Oracle database
+15:16:56 INFO  - Loading Configuration Data
+15:16:56 INFO  - Loading Configuration Data
+15:16:56 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:16:56 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:16:56 INFO  - MSSQL.ServerPort : 1433
+15:16:56 INFO  - MSSQL.DBName : ECAP
+15:16:56 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:16:56 INFO  - MSSQL.Password : Preeth!6131
+15:16:56 INFO  - Initializing database connections
+15:16:56 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:16:56 INFO  - Finished Loading Configuration Data
+15:16:56 INFO  - Loading Configuration Data
+15:16:56 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:16:56 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:16:56 INFO  - MSSQL.ServerPort : 1433
+15:16:56 INFO  - MSSQL.DBName : ECAP
+15:16:56 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:16:56 INFO  - MSSQL.Password : Preeth!6131
+15:16:56 INFO  - Initializing database connections
+15:16:56 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:16:56 INFO  - Finished Loading Configuration Data
+15:44:36 INFO  - Loading Configuration Data
+15:44:36 INFO  - Loading Configuration Data
+15:44:36 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:44:36 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:44:36 INFO  - MSSQL.ServerPort : 1433
+15:44:36 INFO  - MSSQL.DBName : ECAP
+15:44:36 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:44:36 INFO  - MSSQL.Password : Preeth!6131
+15:44:36 INFO  - Initializing database connections
+15:44:37 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:44:39 INFO  - Finished Loading Configuration Data
+15:44:39 INFO  - Loading Configuration Data
+15:44:39 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:44:39 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:44:39 INFO  - MSSQL.ServerPort : 1433
+15:44:39 INFO  - MSSQL.DBName : ECAP
+15:44:39 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:44:39 INFO  - MSSQL.Password : Preeth!6131
+15:44:39 INFO  - Initializing database connections
+15:44:39 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:44:39 INFO  - Finished Loading Configuration Data
+15:44:39 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+15:44:39 INFO  - Building destination table ...
+15:44:39 INFO  - Creating prepared statement
+15:44:39 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+15:44:40 INFO  - Parsed 611 rows
+15:44:40 INFO  - Executing ...
+15:44:40 INFO  - DONE!
+15:44:41 INFO  - Building destination table ...
+15:44:41 INFO  - Creating prepared statement
+15:44:41 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+15:44:41 INFO  - Parsed 224 rows
+15:44:41 INFO  - Executing ...
+15:44:41 INFO  - DONE!
+15:44:41 INFO  - Building destination table ...
+15:44:41 INFO  - Creating prepared statement
+15:44:41 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+15:44:52 INFO  - Parsed 65535 rows
+15:44:52 INFO  - Executing ...
+15:44:52 INFO  - DONE!
+15:44:52 INFO  - Building destination table ...
+15:44:52 INFO  - Creating prepared statement
+15:44:52 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+15:44:52 INFO  - Parsed 209 rows
+15:44:52 INFO  - Executing ...
+15:44:52 INFO  - DONE!
+15:44:53 INFO  - Building destination table ...
+15:44:53 INFO  - Creating prepared statement
+15:44:53 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+15:44:53 INFO  - Parsed 573 rows
+15:44:53 INFO  - Executing ...
+15:44:53 INFO  - DONE!
+15:44:53 INFO  - Building destination table ...
+15:44:53 INFO  - Creating prepared statement
+15:44:53 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+15:44:54 INFO  - Parsed 613 rows
+15:44:54 INFO  - Executing ...
+15:44:54 INFO  - DONE!
+15:44:54 INFO  - Building destination table ...
+15:44:54 INFO  - Creating prepared statement
+15:44:54 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+15:44:54 INFO  - Parsed 1071 rows
+15:44:54 INFO  - Executing ...
+15:44:54 INFO  - DONE!
+15:44:54 INFO  - Building destination table ...
+15:44:54 INFO  - Creating prepared statement
+15:44:54 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+15:45:02 INFO  - Parsed 113449 rows
+15:45:02 INFO  - Executing ...
+15:45:02 INFO  - DONE!
+15:45:03 INFO  - Building destination table ...
+15:45:03 INFO  - Creating prepared statement
+15:45:03 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+15:45:04 INFO  - Parsed 615 rows
+15:45:04 INFO  - Executing ...
+15:45:04 INFO  - DONE!
+15:45:05 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+15:45:05 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+15:45:05 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+15:45:14 INFO  - Loading Configuration Data
+15:45:14 INFO  - Loading Configuration Data
+15:45:14 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:45:14 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:45:14 INFO  - MSSQL.ServerPort : 1433
+15:45:14 INFO  - MSSQL.DBName : ECAP
+15:45:14 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:45:14 INFO  - MSSQL.Password : Preeth!6131
+15:45:14 INFO  - Initializing database connections
+15:45:14 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:45:14 INFO  - Finished Loading Configuration Data
+15:45:15 ERROR - java.lang.NullPointerException
+15:45:15 ERROR - java.lang.NullPointerException
+15:49:40 INFO  - Loading Configuration Data
+15:49:40 INFO  - Loading Configuration Data
+15:49:40 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:49:40 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:49:40 INFO  - MSSQL.ServerPort : 1433
+15:49:40 INFO  - MSSQL.DBName : ECAP
+15:49:40 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:49:40 INFO  - MSSQL.Password : Preeth!6131
+15:49:40 INFO  - Initializing database connections
+15:49:41 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:49:42 INFO  - Finished Loading Configuration Data
+15:49:52 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+15:49:52 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+15:49:52 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+15:50:34 INFO  - Loading Configuration Data
+15:50:34 INFO  - Loading Configuration Data
+15:50:34 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:50:34 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:50:34 INFO  - MSSQL.ServerPort : 1433
+15:50:34 INFO  - MSSQL.DBName : ECAP
+15:50:34 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:50:34 INFO  - MSSQL.Password : Preeth!6131
+15:50:34 INFO  - Initializing database connections
+15:50:35 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:50:36 INFO  - Finished Loading Configuration Data
+15:50:37 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+15:50:37 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+15:50:38 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+15:50:48 INFO  - Loading Configuration Data
+15:50:48 INFO  - Loading Configuration Data
+15:50:48 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:50:48 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:50:48 INFO  - MSSQL.ServerPort : 1433
+15:50:48 INFO  - MSSQL.DBName : ECAP
+15:50:48 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:50:48 INFO  - MSSQL.Password : Preeth!6131
+15:50:48 INFO  - Initializing database connections
+15:50:48 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:50:48 INFO  - Finished Loading Configuration Data
+15:51:45 INFO  - Loading Configuration Data
+15:51:45 INFO  - Loading Configuration Data
+15:51:45 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+15:51:45 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+15:51:45 INFO  - MSSQL.ServerPort : 1433
+15:51:45 INFO  - MSSQL.DBName : ECAP
+15:51:45 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+15:51:45 INFO  - MSSQL.Password : Preeth!6131
+15:51:45 INFO  - Initializing database connections
+15:51:45 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+15:51:47 INFO  - Finished Loading Configuration Data
+15:51:48 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+15:51:48 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+15:51:48 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+16:04:09 INFO  - Loading Configuration Data
+16:04:09 INFO  - Loading Configuration Data
+16:04:09 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:04:09 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:04:09 INFO  - MSSQL.ServerPort : 1433
+16:04:09 INFO  - MSSQL.DBName : ECAP
+16:04:09 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:04:09 INFO  - MSSQL.Password : Preeth!6131
+16:04:09 INFO  - Initializing database connections
+16:04:09 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:04:09 INFO  - Finished Loading Configuration Data
+16:27:28 INFO  - Loading Configuration Data
+16:27:28 INFO  - Loading Configuration Data
+16:27:28 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:27:28 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:27:28 INFO  - MSSQL.ServerPort : 1433
+16:27:28 INFO  - MSSQL.DBName : ECAP
+16:27:28 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:27:28 INFO  - MSSQL.Password : Preeth!6131
+16:27:28 INFO  - Initializing database connections
+16:27:28 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:27:28 INFO  - Finished Loading Configuration Data
+16:27:29 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+16:27:29 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+16:27:29 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+16:29:32 INFO  - Loading Configuration Data
+16:29:32 INFO  - Loading Configuration Data
+16:29:32 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:29:32 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:29:32 INFO  - MSSQL.ServerPort : 1433
+16:29:32 INFO  - MSSQL.DBName : ECAP
+16:29:32 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:29:32 INFO  - MSSQL.Password : Preeth!6131
+16:29:32 INFO  - Initializing database connections
+16:29:32 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:29:33 INFO  - Finished Loading Configuration Data
+16:30:11 INFO  - Loading Configuration Data
+16:30:11 INFO  - Loading Configuration Data
+16:30:11 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:30:11 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:30:11 INFO  - MSSQL.ServerPort : 1433
+16:30:11 INFO  - MSSQL.DBName : ECAP
+16:30:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:30:11 INFO  - MSSQL.Password : Preeth!6131
+16:30:11 INFO  - Initializing database connections
+16:30:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:30:12 INFO  - Finished Loading Configuration Data
+16:30:12 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+16:30:12 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+16:30:12 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+16:30:17 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+16:30:17 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+16:30:19 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+16:30:19 INFO  - table doesnot exist in the Oracle database
+16:30:19 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+16:30:19 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+16:30:43 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+16:30:43 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+16:30:45 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+16:30:45 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+16:30:48 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+16:30:48 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+16:30:50 INFO  - Parsed row 1000
+16:30:50 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+16:30:50 INFO  - Exist View [view_v4GIS_PRS_Info_Archived] ? -> true
+16:30:53 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+16:30:53 INFO  - Exist View [view_V4GIS_PRS_Info] ? -> true
+16:30:55 INFO  - Loading Configuration Data
+16:30:55 INFO  - Loading Configuration Data
+16:30:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:30:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:30:55 INFO  - MSSQL.ServerPort : 1433
+16:30:55 INFO  - MSSQL.DBName : ECAP
+16:30:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:30:55 INFO  - MSSQL.Password : Preeth!6131
+16:30:55 INFO  - Initializing database connections
+16:30:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:30:55 INFO  - Finished Loading Configuration Data
+16:30:55 INFO  - Loading Configuration Data
+16:30:55 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:30:55 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:30:55 INFO  - MSSQL.ServerPort : 1433
+16:30:55 INFO  - MSSQL.DBName : ECAP
+16:30:55 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:30:55 INFO  - MSSQL.Password : Preeth!6131
+16:30:55 INFO  - Initializing database connections
+16:30:55 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:30:55 INFO  - Finished Loading Configuration Data
+16:31:45 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:99) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+16:31:45 INFO  - Loading Configuration Data
+16:31:45 INFO  - Loading Configuration Data
+16:31:45 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:31:45 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:31:45 INFO  - MSSQL.ServerPort : 1433
+16:31:45 INFO  - MSSQL.DBName : ECAP
+16:31:45 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:31:45 INFO  - MSSQL.Password : Preeth!6131
+16:31:45 INFO  - Initializing database connections
+16:31:45 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:31:45 INFO  - Finished Loading Configuration Data
+16:31:45 ERROR - org.apache.ibatis.jdbc.RuntimeSqlException: Line missing end-of-line terminator (;;) =>   CREATE TABLE "ECAP"."VIEW_V4GIS_PRS_INFO_ARCHIVED" 
+   (	"COLUMN1" CLOB
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "APEX_1461189660087098" 
+ LOB ("COLUMN1") STORE AS SECUREFILE (
+  TABLESPACE "APEX_1461189660087098" ENABLE STORAGE IN ROW CHUNK 8192
+  NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
+  STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)) 
+/* view data */
+
+16:31:45 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+16:38:45 INFO  - Loading Configuration Data
+16:38:45 INFO  - Loading Configuration Data
+16:38:45 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:38:45 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:38:45 INFO  - MSSQL.ServerPort : 1433
+16:38:45 INFO  - MSSQL.DBName : ECAP
+16:38:45 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:38:45 INFO  - MSSQL.Password : Preeth!6131
+16:38:45 INFO  - Initializing database connections
+16:38:46 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:38:46 INFO  - Finished Loading Configuration Data
+16:38:47 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+16:38:47 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+16:38:47 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+16:38:51 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+16:38:51 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+16:38:52 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+16:38:52 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+16:38:54 INFO  - Parsed row 1000
+16:38:54 INFO  - Parsed row 2000
+16:38:54 INFO  - Parsed row 3000
+16:38:54 INFO  - Parsed row 4000
+16:38:54 INFO  - Parsed row 5000
+16:38:54 INFO  - Parsed row 6000
+16:38:54 INFO  - Parsed row 7000
+16:38:54 INFO  - Parsed row 8000
+16:38:54 INFO  - Parsed row 9000
+16:38:54 INFO  - Parsed row 10000
+16:38:54 INFO  - Parsed row 11000
+16:38:54 INFO  - Parsed row 12000
+16:38:55 INFO  - Parsed row 13000
+16:38:55 INFO  - Parsed row 14000
+16:38:55 INFO  - Parsed row 15000
+16:38:55 INFO  - Parsed row 16000
+16:38:55 INFO  - Parsed row 17000
+16:38:55 INFO  - Parsed row 18000
+16:38:55 INFO  - Parsed row 19000
+16:38:55 INFO  - Parsed row 20000
+16:38:55 INFO  - Parsed row 21000
+16:38:55 INFO  - Parsed row 22000
+16:38:55 INFO  - Parsed row 23000
+16:38:55 INFO  - Parsed row 24000
+16:38:55 INFO  - Parsed row 25000
+16:38:55 INFO  - Parsed row 26000
+16:38:55 INFO  - Parsed row 27000
+16:38:55 INFO  - Parsed row 28000
+16:38:55 INFO  - Parsed row 29000
+16:38:55 INFO  - Parsed row 30000
+16:38:55 INFO  - Parsed row 31000
+16:38:55 INFO  - Parsed row 32000
+16:38:55 INFO  - Parsed row 33000
+16:38:55 INFO  - Parsed row 34000
+16:38:55 INFO  - Parsed row 35000
+16:38:55 INFO  - Parsed row 36000
+16:38:55 INFO  - Parsed row 37000
+16:38:55 INFO  - Parsed row 38000
+16:38:55 INFO  - Parsed row 39000
+16:38:55 INFO  - Parsed row 40000
+16:38:55 INFO  - Parsed row 41000
+16:38:55 INFO  - Parsed row 42000
+16:38:55 INFO  - Parsed row 43000
+16:38:55 INFO  - Parsed row 44000
+16:38:55 INFO  - Parsed row 45000
+16:38:55 INFO  - Parsed row 46000
+16:38:55 INFO  - Parsed row 47000
+16:38:55 INFO  - Parsed row 48000
+16:38:55 INFO  - Parsed row 49000
+16:38:55 INFO  - Parsed row 50000
+16:38:55 INFO  - Parsed row 51000
+16:38:55 INFO  - Parsed row 52000
+16:38:55 INFO  - Parsed row 53000
+16:38:55 INFO  - Parsed row 54000
+16:38:55 INFO  - Parsed row 55000
+16:38:55 INFO  - Parsed row 56000
+16:38:55 INFO  - Parsed row 57000
+16:38:55 INFO  - Parsed row 58000
+16:38:55 INFO  - Parsed row 59000
+16:38:55 INFO  - Parsed row 60000
+16:38:55 INFO  - Parsed row 61000
+16:38:55 INFO  - Parsed row 62000
+16:38:55 INFO  - Parsed row 63000
+16:38:55 INFO  - Parsed row 64000
+16:38:55 INFO  - Parsed row 65000
+16:38:55 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+16:38:55 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+16:38:58 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+16:38:58 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+16:39:00 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+16:39:00 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+16:39:02 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+16:39:02 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+16:39:03 INFO  - Parsed row 1000
+16:39:04 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+16:39:04 INFO  - table doesnot exist in the Oracle database
+16:39:04 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+16:39:04 INFO  - table doesnot exist in the Oracle database
+16:39:04 INFO  - Loading Configuration Data
+16:39:04 INFO  - Loading Configuration Data
+16:39:04 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:39:04 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:39:04 INFO  - MSSQL.ServerPort : 1433
+16:39:04 INFO  - MSSQL.DBName : ECAP
+16:39:04 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:39:04 INFO  - MSSQL.Password : Preeth!6131
+16:39:04 INFO  - Initializing database connections
+16:39:04 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:39:04 INFO  - Finished Loading Configuration Data
+16:39:04 INFO  - Loading Configuration Data
+16:39:04 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:39:04 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:39:04 INFO  - MSSQL.ServerPort : 1433
+16:39:04 INFO  - MSSQL.DBName : ECAP
+16:39:04 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:39:04 INFO  - MSSQL.Password : Preeth!6131
+16:39:04 INFO  - Initializing database connections
+16:39:04 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:39:04 INFO  - Finished Loading Configuration Data
+16:39:52 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:99) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+16:39:52 INFO  - Loading Configuration Data
+16:39:52 INFO  - Loading Configuration Data
+16:39:52 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+16:39:52 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+16:39:52 INFO  - MSSQL.ServerPort : 1433
+16:39:52 INFO  - MSSQL.DBName : ECAP
+16:39:52 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+16:39:52 INFO  - MSSQL.Password : Preeth!6131
+16:39:52 INFO  - Initializing database connections
+16:39:52 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+16:39:52 INFO  - Finished Loading Configuration Data
+16:39:53 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+16:39:53 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+17:01:58 INFO  - Loading Configuration Data
+17:01:58 INFO  - Loading Configuration Data
+17:01:58 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:01:58 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:01:58 INFO  - MSSQL.ServerPort : 1433
+17:01:58 INFO  - MSSQL.DBName : ECAP
+17:01:58 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:01:58 INFO  - MSSQL.Password : Preeth!6131
+17:01:58 INFO  - Initializing database connections
+17:01:58 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:01:59 INFO  - Finished Loading Configuration Data
+17:01:59 INFO  - Loading Configuration Data
+17:01:59 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:01:59 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:01:59 INFO  - MSSQL.ServerPort : 1433
+17:01:59 INFO  - MSSQL.DBName : ECAP
+17:01:59 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:01:59 INFO  - MSSQL.Password : Preeth!6131
+17:01:59 INFO  - Initializing database connections
+17:01:59 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:01:59 INFO  - Finished Loading Configuration Data
+17:01:59 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+17:01:59 INFO  - Building destination table ...
+17:01:59 INFO  - Creating prepared statement
+17:01:59 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+17:01:59 INFO  - Parsed 611 rows
+17:01:59 INFO  - Executing ...
+17:01:59 INFO  - DONE!
+17:01:59 INFO  - Building destination table ...
+17:01:59 INFO  - Creating prepared statement
+17:01:59 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+17:01:59 INFO  - Parsed 224 rows
+17:01:59 INFO  - Executing ...
+17:01:59 INFO  - DONE!
+17:01:59 INFO  - Building destination table ...
+17:01:59 INFO  - Creating prepared statement
+17:01:59 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+17:02:05 INFO  - Parsed 65535 rows
+17:02:05 INFO  - Executing ...
+17:02:05 INFO  - DONE!
+17:02:05 INFO  - Building destination table ...
+17:02:05 INFO  - Creating prepared statement
+17:02:05 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+17:02:05 INFO  - Parsed 209 rows
+17:02:05 INFO  - Executing ...
+17:02:05 INFO  - DONE!
+17:02:05 INFO  - Building destination table ...
+17:02:05 INFO  - Creating prepared statement
+17:02:05 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+17:02:05 INFO  - Parsed 573 rows
+17:02:05 INFO  - Executing ...
+17:02:05 INFO  - DONE!
+17:02:05 INFO  - Building destination table ...
+17:02:05 INFO  - Creating prepared statement
+17:02:05 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+17:02:05 INFO  - Parsed 613 rows
+17:02:05 INFO  - Executing ...
+17:02:05 INFO  - DONE!
+17:02:05 INFO  - Building destination table ...
+17:02:05 INFO  - Creating prepared statement
+17:02:05 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+17:02:05 INFO  - Parsed 1071 rows
+17:02:05 INFO  - Executing ...
+17:02:05 INFO  - DONE!
+17:02:05 INFO  - Building destination table ...
+17:02:05 INFO  - Creating prepared statement
+17:02:05 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+17:02:08 INFO  - Parsed 113449 rows
+17:02:08 INFO  - Executing ...
+17:02:08 INFO  - DONE!
+17:02:08 INFO  - Building destination table ...
+17:02:08 INFO  - Creating prepared statement
+17:02:08 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+17:02:08 INFO  - Parsed 615 rows
+17:02:08 INFO  - Executing ...
+17:02:08 INFO  - DONE!
+17:02:08 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+17:02:08 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+17:02:09 INFO  - Exist View [view_v4PRS_P3eDP_Authorizations] ? -> true
+17:02:12 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+17:02:12 INFO  - Exist View [view_v4PRS_P3e_ProjectedAwards] ? -> true
+17:02:14 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+17:02:14 INFO  - Exist View [view_v4PRS_P3e_Prod_New_Old_Act_DOT] ? -> true
+17:02:16 INFO  - Parsed row 1000
+17:02:16 INFO  - Parsed row 2000
+17:02:16 INFO  - Parsed row 3000
+17:02:16 INFO  - Parsed row 4000
+17:02:16 INFO  - Parsed row 5000
+17:02:16 INFO  - Parsed row 6000
+17:02:16 INFO  - Parsed row 7000
+17:02:16 INFO  - Parsed row 8000
+17:02:16 INFO  - Parsed row 9000
+17:02:16 INFO  - Parsed row 10000
+17:02:16 INFO  - Parsed row 11000
+17:02:16 INFO  - Parsed row 12000
+17:02:16 INFO  - Parsed row 13000
+17:02:16 INFO  - Parsed row 14000
+17:02:16 INFO  - Parsed row 15000
+17:02:16 INFO  - Parsed row 16000
+17:02:16 INFO  - Parsed row 17000
+17:02:16 INFO  - Parsed row 18000
+17:02:16 INFO  - Parsed row 19000
+17:02:16 INFO  - Parsed row 20000
+17:02:16 INFO  - Parsed row 21000
+17:02:16 INFO  - Parsed row 22000
+17:02:16 INFO  - Parsed row 23000
+17:02:16 INFO  - Parsed row 24000
+17:02:16 INFO  - Parsed row 25000
+17:02:16 INFO  - Parsed row 26000
+17:02:16 INFO  - Parsed row 27000
+17:02:16 INFO  - Parsed row 28000
+17:02:16 INFO  - Parsed row 29000
+17:02:16 INFO  - Parsed row 30000
+17:02:16 INFO  - Parsed row 31000
+17:02:16 INFO  - Parsed row 32000
+17:02:16 INFO  - Parsed row 33000
+17:02:16 INFO  - Parsed row 34000
+17:02:17 INFO  - Parsed row 35000
+17:02:17 INFO  - Parsed row 36000
+17:02:17 INFO  - Parsed row 37000
+17:02:17 INFO  - Parsed row 38000
+17:02:17 INFO  - Parsed row 39000
+17:02:17 INFO  - Parsed row 40000
+17:02:17 INFO  - Parsed row 41000
+17:02:17 INFO  - Parsed row 42000
+17:02:17 INFO  - Parsed row 43000
+17:02:17 INFO  - Parsed row 44000
+17:02:17 INFO  - Parsed row 45000
+17:02:17 INFO  - Parsed row 46000
+17:02:17 INFO  - Parsed row 47000
+17:02:17 INFO  - Parsed row 48000
+17:02:17 INFO  - Parsed row 49000
+17:02:17 INFO  - Parsed row 50000
+17:02:17 INFO  - Parsed row 51000
+17:02:17 INFO  - Parsed row 52000
+17:02:17 INFO  - Parsed row 53000
+17:02:17 INFO  - Parsed row 54000
+17:02:17 INFO  - Parsed row 55000
+17:02:17 INFO  - Parsed row 56000
+17:02:17 INFO  - Parsed row 57000
+17:02:17 INFO  - Parsed row 58000
+17:02:17 INFO  - Parsed row 59000
+17:02:17 INFO  - Parsed row 60000
+17:02:17 INFO  - Parsed row 61000
+17:02:17 INFO  - Parsed row 62000
+17:02:17 INFO  - Parsed row 63000
+17:02:17 INFO  - Parsed row 64000
+17:02:17 INFO  - Parsed row 65000
+17:02:17 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+17:02:17 INFO  - Exist View [view_v4PRS_P3e_Planned_Adv] ? -> true
+17:02:20 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+17:02:20 INFO  - Exist View [view_v4PRS_Fnd_Poolsheet_Status] ? -> true
+17:02:21 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+17:02:21 INFO  - Exist View [view_v4PRS_Budget_Est_Data] ? -> true
+17:02:23 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+17:02:23 INFO  - Exist View [view_v4PRS_Actual_Award_Amts] ? -> true
+17:02:25 INFO  - Parsed row 1000
+17:02:25 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+17:02:25 INFO  - table doesnot exist in the Oracle database
+17:02:25 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+17:02:25 INFO  - table doesnot exist in the Oracle database
+17:02:25 INFO  - Loading Configuration Data
+17:02:25 INFO  - Loading Configuration Data
+17:02:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:02:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:02:25 INFO  - MSSQL.ServerPort : 1433
+17:02:25 INFO  - MSSQL.DBName : ECAP
+17:02:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:02:25 INFO  - MSSQL.Password : Preeth!6131
+17:02:25 INFO  - Initializing database connections
+17:02:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:02:25 INFO  - Finished Loading Configuration Data
+17:02:25 INFO  - Loading Configuration Data
+17:02:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:02:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:02:25 INFO  - MSSQL.ServerPort : 1433
+17:02:25 INFO  - MSSQL.DBName : ECAP
+17:02:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:02:25 INFO  - MSSQL.Password : Preeth!6131
+17:02:25 INFO  - Initializing database connections
+17:02:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:02:25 INFO  - Finished Loading Configuration Data
+17:03:12 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:99) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+17:03:12 INFO  - Loading Configuration Data
+17:03:12 INFO  - Loading Configuration Data
+17:03:12 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:03:12 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:03:12 INFO  - MSSQL.ServerPort : 1433
+17:03:12 INFO  - MSSQL.DBName : ECAP
+17:03:12 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:03:12 INFO  - MSSQL.Password : Preeth!6131
+17:03:12 INFO  - Initializing database connections
+17:03:12 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:03:12 INFO  - Finished Loading Configuration Data
+17:03:12 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+17:03:12 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+17:14:11 INFO  - Loading Configuration Data
+17:14:11 INFO  - Loading Configuration Data
+17:14:11 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:14:11 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:14:11 INFO  - MSSQL.ServerPort : 1433
+17:14:11 INFO  - MSSQL.DBName : ECAP
+17:14:11 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:14:11 INFO  - MSSQL.Password : Preeth!6131
+17:14:11 INFO  - Initializing database connections
+17:14:11 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:14:12 INFO  - Finished Loading Configuration Data
+17:14:12 INFO  - Loading Configuration Data
+17:14:12 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:14:12 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:14:12 INFO  - MSSQL.ServerPort : 1433
+17:14:12 INFO  - MSSQL.DBName : ECAP
+17:14:12 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:14:12 INFO  - MSSQL.Password : Preeth!6131
+17:14:12 INFO  - Initializing database connections
+17:14:12 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:14:12 INFO  - Finished Loading Configuration Data
+17:14:12 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+17:14:12 INFO  - Building destination table ...
+17:14:12 INFO  - Creating prepared statement
+17:14:12 INFO  - Copying data: SELECT * FROM view_v4PRS_P3eDP_Authorizations
+17:14:13 INFO  - Parsed 611 rows
+17:14:13 INFO  - Executing ...
+17:14:13 INFO  - DONE!
+17:14:13 INFO  - Building destination table ...
+17:14:13 INFO  - Creating prepared statement
+17:14:13 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_ProjectedAwards
+17:14:13 INFO  - Parsed 224 rows
+17:14:13 INFO  - Executing ...
+17:14:13 INFO  - DONE!
+17:14:13 INFO  - Building destination table ...
+17:14:13 INFO  - Creating prepared statement
+17:14:13 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Prod_New_Old_Act_DOT
+17:14:19 INFO  - Parsed 65535 rows
+17:14:19 INFO  - Executing ...
+17:14:19 INFO  - DONE!
+17:14:19 INFO  - Building destination table ...
+17:14:19 INFO  - Creating prepared statement
+17:14:19 INFO  - Copying data: SELECT * FROM view_v4PRS_P3e_Planned_Adv
+17:14:20 INFO  - Parsed 209 rows
+17:14:20 INFO  - Executing ...
+17:14:20 INFO  - DONE!
+17:14:20 INFO  - Building destination table ...
+17:14:20 INFO  - Creating prepared statement
+17:14:20 INFO  - Copying data: SELECT * FROM view_v4PRS_Fnd_Poolsheet_Status
+17:14:20 INFO  - Parsed 573 rows
+17:14:20 INFO  - Executing ...
+17:14:20 INFO  - DONE!
+17:14:20 INFO  - Building destination table ...
+17:14:20 INFO  - Creating prepared statement
+17:14:20 INFO  - Copying data: SELECT * FROM view_v4PRS_Budget_Est_Data
+17:14:20 INFO  - Parsed 613 rows
+17:14:20 INFO  - Executing ...
+17:14:20 INFO  - DONE!
+17:14:21 INFO  - Building destination table ...
+17:14:21 INFO  - Creating prepared statement
+17:14:21 INFO  - Copying data: SELECT * FROM view_v4PRS_Actual_Award_Amts
+17:14:21 INFO  - Parsed 1071 rows
+17:14:21 INFO  - Executing ...
+17:14:21 INFO  - DONE!
+17:14:21 INFO  - Building destination table ...
+17:14:21 INFO  - Creating prepared statement
+17:14:21 INFO  - Copying data: SELECT * FROM view_v4GIS_PRS_Info_Archived
+17:14:23 INFO  - Parsed 113449 rows
+17:14:23 INFO  - Executing ...
+17:14:23 INFO  - DONE!
+17:14:24 INFO  - Building destination table ...
+17:14:24 INFO  - Creating prepared statement
+17:14:24 INFO  - Copying data: SELECT * FROM view_V4GIS_PRS_Info
+17:14:25 INFO  - Parsed 615 rows
+17:14:25 INFO  - Executing ...
+17:14:25 INFO  - DONE!
+17:14:25 INFO  - Migration.TableNames : view_v4PRS_P3eDP_Authorizations,view_v4PRS_P3e_ProjectedAwards,view_v4PRS_P3e_Prod_New_Old_Act_DOT,view_v4PRS_P3e_Planned_Adv,view_v4PRS_Fnd_Poolsheet_Status,view_v4PRS_Budget_Est_Data,view_v4PRS_Actual_Award_Amts,view_v4GIS_PRS_Info_Archived,view_V4GIS_PRS_Info
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3eDP_Authorizations])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_ProjectedAwards])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Prod_New_Old_Act_DOT])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_P3e_Planned_Adv])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Fnd_Poolsheet_Status])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Budget_Est_Data])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4PRS_Actual_Award_Amts])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_v4GIS_PRS_Info_Archived])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - [boolean existViewInDB(String viewName[view_V4GIS_PRS_Info])]
+17:14:25 INFO  - table doesnot exist in the Oracle database
+17:14:25 INFO  - Loading Configuration Data
+17:14:25 INFO  - Loading Configuration Data
+17:14:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:14:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:14:25 INFO  - MSSQL.ServerPort : 1433
+17:14:25 INFO  - MSSQL.DBName : ECAP
+17:14:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:14:25 INFO  - MSSQL.Password : Preeth!6131
+17:14:25 INFO  - Initializing database connections
+17:14:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:14:25 INFO  - Finished Loading Configuration Data
+17:14:25 INFO  - Loading Configuration Data
+17:14:25 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:14:25 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:14:25 INFO  - MSSQL.ServerPort : 1433
+17:14:25 INFO  - MSSQL.DBName : ECAP
+17:14:25 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:14:25 INFO  - MSSQL.Password : Preeth!6131
+17:14:25 INFO  - Initializing database connections
+17:14:25 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:14:25 INFO  - Finished Loading Configuration Data
+17:15:16 ERROR - view_v4GIS_PRS_Info_Archived
+java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:446) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1054) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:623) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:213) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:37) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:896) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1119) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1737) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1692) ~[ojdbc-8.jar:12.2.0.1.0]
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:300) ~[ojdbc-8.jar:12.2.0.1.0]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeStatement(MyScriptRunner.java:236) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.handleLine(MyScriptRunner.java:198) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.executeLineByLine(MyScriptRunner.java:131) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.MyScriptRunner.runScript(MyScriptRunner.java:94) ~[classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.runSQLScript(Migrator.java:56) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.<init>(Migrator.java:25) [classes/:?]
+	at edu.njit.itsrc.migrateSQLServertoOracle.Migrator.main(Migrator.java:102) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01704: string literal too long
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:498) ~[ojdbc-8.jar:12.2.0.1.0]
+	... 19 more
+17:15:16 INFO  - Loading Configuration Data
+17:15:16 INFO  - Loading Configuration Data
+17:15:16 INFO  - MSSQL.Driver : com.microsoft.sqlserver.jdbc.SQLServerDriver
+17:15:16 INFO  - MSSQL.ServerURL : DESKTOP-MFFOQNF\SQLServer
+17:15:16 INFO  - MSSQL.ServerPort : 1433
+17:15:16 INFO  - MSSQL.DBName : ECAP
+17:15:16 INFO  - MSSQL.Username : DESKTOP-MFFOQNF\Preethi Ravulapally
+17:15:16 INFO  - MSSQL.Password : Preeth!6131
+17:15:16 INFO  - Initializing database connections
+17:15:16 INFO  - Microsoft SQL Server Connection String: jdbc:sqlserver://localhost;databaseName=ECAP;integratedSecurity=true
+17:15:16 INFO  - Finished Loading Configuration Data
+17:15:16 ERROR - java.sql.SQLSyntaxErrorException: ORA-01704: string literal too long
+
